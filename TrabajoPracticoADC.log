@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  31 JUL 2020 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  31 JUL 2020 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,7 +183,7 @@ ticoADC.aux) )
 Here is how much of TeX's memory you used:
  1780 strings out of 483140
  23576 string characters out of 5965151
- 248359 words of memory out of 5000000
+ 249359 words of memory out of 5000000
  16822 multiletter control sequences out of 15000+600000
  539443 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -197,7 +197,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on TrabajoPracticoADC.pdf (4 pages, 96090 bytes).
+Output written on TrabajoPracticoADC.pdf (4 pages, 95954 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
