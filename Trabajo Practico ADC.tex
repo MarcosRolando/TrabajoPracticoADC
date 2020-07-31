@@ -14,12 +14,12 @@
 \subsection*{Tipo de filtro}
 
 Dada la función de transferencia asignada
-\[H(s)=\frac{3948*s^2}{s^4+88,86*s^3+7,935*10^5*s^2+3,508*10^7*s+1,559*10^{11}}\]
+\[H(s)=\frac{3948 \cdot s^2}{s^4+88,86 \cdot s^3+7,935 \cdot 10^5 \cdot s^2+3,508 \cdot 10^7 \cdot s+1,559 \cdot 10^{11}}\]
 procederemos a analizar su comportamiento en $s=0$ y $s\longrightarrow\infty$.
 
 \bigskip
 En primer lugar analizamos el caso $s=0$ para el cual tenemos que 
-\[H(0) = \frac{3948*0^2}{0^4+88,86*0^3+7,935*10^5*0^2+3,508*10^7*0+1,559*10^{11}}\]
+\[H(0) = \frac{3948 \cdot 0^2}{0^4+88,86 \cdot 0^3+7,935 \cdot 10^5 \cdot 0^2+3,508 \cdot 10^7 \cdot 0+1,559 \cdot 10^{11}}\]
 
 de donde se deduce que
 \[H(0) = 0\]
@@ -52,13 +52,18 @@ polos de $H(s)$, y donde el primer subíndice corresponde al conjugado cuya part
 \subsection*{Cálculo de $W_{0}$ y Q}
 
 Dado que el denominador se compone de dos pares de raíces complejas conjugadas tendrá entonces un $W_{0}$ y Q para cada par. Para obtenerlos debemos primero reescribir la función $H(s)$ a la forma
-\[H(s)=\frac{3948*s^2}{(a*s^2+b*s+c)*(d*s^2+e*s+f)}\]
+\[H(s)=\frac{3948 \cdot s^2}{(a \cdot s^2+b \cdot s+c) \cdot (d \cdot s^2+e \cdot s+f)}\]
 donde las letras corresponden a valores que debemos calcular de forma tal que dicha
 ecuación sea equivalente a la fórmula original de $H(s)$.
 
 \bigskip
 Para conseguir esto es conveniente utilizar las raíces del denominador de $H(s)$ (los polos de la función) expresando la función como
-\[H(s)\approx\frac{3948*s^2}{(s+p_{1})*(s+p_{2})*(s+p_{3})*(s+p_{4})}\]
+\[H(s)=\frac{3948 \cdot s^2}{k \cdot (s+p_{1}) \cdot (s+p_{2}) \cdot (s+p_{3}) \cdot (s+p_{4})}\]
+donde k es el factor del término $k*s^4$ y, para nuestra función en particular,
+se da que $k=1$. 
 
+\bigskip
+Luego, multiplicando los polos conjuados entre sí obtenemos
+\[H(s)=\frac{3948 \cdot s^2}{(s^2+(p1+p2) \cdot s+p_{1} \cdot p_{2}) \cdot (s^2+(p3+p4) \cdot s+p_{3} \cdot p_{4})}\]
 
 \end{document}
