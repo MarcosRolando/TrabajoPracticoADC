@@ -1,27 +1,24 @@
 \documentclass[11pt,a4paper]{report}
 \usepackage[document]{ragged2e}
+\usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \author{Marcos}
 \begin{document}
+\spacing{1.5}
 
 \section*{Análisis general de la función de transferencia}
 
 Dada la función de transferencia asignada
-
 \[H(s)=\frac{3948*s^2}{s^4+88.86*s^3+7.935*10^5*s^2+3.508*10^7*s+1.559*10^{11}}\]
-
-\bigskip
 procederemos a analizar su comportamiento en $s=0$ y $s\longrightarrow\infty$.
 
 \bigskip
 En primer lugar analizamos el caso $s=0$ para el cual tenemos que 
-
 \[H(0) = \frac{3948*0^2}{0^4+88.86*0^3+7.935*10^5*0^2+3.508*10^7*0+1.559*10^{11}}\]
 
-\bigskip
 de donde se deduce que
 \[H(0) = 0\]
 
@@ -31,7 +28,7 @@ dado que el grado del denominador es dos veces mayor al del numerador.
 
 \bigskip
 En base a los valores obtenidos podemos entonces afirmar que se trata de un
-filtro pasabanda, de tipo no inversor (
+filtro pasabanda dado que la transferencia es nula para frecuencias bajas y altas.
 
 
 \end{document}
