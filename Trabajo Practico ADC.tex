@@ -11,13 +11,15 @@
 
 \section*{Análisis general de la función de transferencia}
 
+\subsection*{Tipo de filtro}
+
 Dada la función de transferencia asignada
-\[H(s)=\frac{3948*s^2}{s^4+88.86*s^3+7.935*10^5*s^2+3.508*10^7*s+1.559*10^{11}}\]
+\[H(s)=\frac{3948*s^2}{s^4+88,86*s^3+7,935*10^5*s^2+3,508*10^7*s+1,559*10^{11}}\]
 procederemos a analizar su comportamiento en $s=0$ y $s\longrightarrow\infty$.
 
 \bigskip
 En primer lugar analizamos el caso $s=0$ para el cual tenemos que 
-\[H(0) = \frac{3948*0^2}{0^4+88.86*0^3+7.935*10^5*0^2+3.508*10^7*0+1.559*10^{11}}\]
+\[H(0) = \frac{3948*0^2}{0^4+88,86*0^3+7,935*10^5*0^2+3,508*10^7*0+1,559*10^{11}}\]
 
 de donde se deduce que
 \[H(0) = 0\]
@@ -29,6 +31,20 @@ dado que el grado del denominador es dos veces mayor al del numerador.
 \bigskip
 En base a los valores obtenidos podemos entonces afirmar que se trata de un
 filtro pasabanda dado que la transferencia es nula para frecuencias bajas y altas.
+
+\subsection*{Ceros y polos}
+
+En principio, es trivial ver que el único cero de la función $H(s)$ es
+$s = 0$ y dado que está elevado al cuadrado se deduce que el cero es doble.
+
+\bigskip
+Por otro lado tenemos los polos, cuyo cálculo no es trivial. Dado que el denominador de la función es de grado cuatro tendremos entonces cuatro raíces. Debido a esto
+y a que los coeficientes del polinomio complejizan el desarrollo del cálculo de 
+dichas raíces, se calcularán entonces mediante calculadora. 
+
+\bigskip
+Obtenemos que
+\[s_{1,2} \approx -21,40 \pm 606,9j\]
 
 
 \end{document}
