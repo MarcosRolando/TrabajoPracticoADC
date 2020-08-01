@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  1 AUG 2020 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  1 AUG 2020 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -142,13 +142,32 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
+\captionmargin=\dimen145
+\captionmargin@=\dimen146
+\captionwidth=\dimen147
+\caption@tempdima=\dimen148
+\caption@indent=\dimen149
+\caption@parindent=\dimen150
+\caption@hangindent=\dimen151
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count189
+\c@continuedfloat=\count190
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
@@ -163,58 +182,60 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count189
+\l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box47
 )
 (./TrabajoPracticoADC.aux)
 \openout1 = `TrabajoPracticoADC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 14.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 13.
+LaTeX Info: Redefining \selectfont on input line 14.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 13.
-Package gensymb Info: Math companion symbols declared on input line 13.
-LaTeX Info: Redefining \degree on input line 13.
-LaTeX Info: Redefining \celsius on input line 13.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 14.
+Package gensymb Info: Math companion symbols declared on input line 14.
+LaTeX Info: Redefining \degree on input line 14.
+LaTeX Info: Redefining \celsius on input line 14.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 13.
-LaTeX Info: Redefining \ohm on input line 13.
-Package gensymb Info: Using \textohm for \ohm on input line 13.
-Package gensymb Info: Using \textmu for \micro on input line 13.
+erthousand on input line 14.
+LaTeX Info: Redefining \ohm on input line 14.
+Package gensymb Info: Using \textohm for \ohm on input line 14.
+Package gensymb Info: Using \textmu for \micro on input line 14.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count190
-\scratchdimen=\dimen147
+\scratchcounter=\count192
+\scratchdimen=\dimen154
 \scratchbox=\box48
-\nofMPsegments=\count191
-\nofMParguments=\count192
+\nofMPsegments=\count193
+\nofMParguments=\count194
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count193
-\MPscratchDim=\dimen148
-\MPnumerator=\count194
-\makeMPintoPDFobject=\count195
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen155
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -225,13 +246,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -242,89 +263,92 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <DiagramasBode.png, id=17, 471.7625pt x 553.06625pt>
 File: DiagramasBode.png Graphic file (type png)
 <use DiagramasBode.png>
-Package pdftex.def Info: DiagramasBode.png  used on input line 110.
+Package pdftex.def Info: DiagramasBode.png  used on input line 111.
 (pdftex.def)             Requested size: 330.23149pt x 387.14374pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4 <./DiagramasBode.png>] [5]
-<RtaEscalon.png, id=31, 500.87125pt x 410.53375pt>
+<RtaEscalon.png, id=32, 500.87125pt x 410.53375pt>
 File: RtaEscalon.png Graphic file (type png)
 <use RtaEscalon.png>
-Package pdftex.def Info: RtaEscalon.png  used on input line 147.
+Package pdftex.def Info: RtaEscalon.png  used on input line 148.
 (pdftex.def)             Requested size: 350.60747pt x 287.37166pt.
  [6 <./RtaEscalon.png>]
 <RtaImpulso.png, id=37, 487.8225pt x 404.51125pt>
 File: RtaImpulso.png Graphic file (type png)
 <use RtaImpulso.png>
-Package pdftex.def Info: RtaImpulso.png  used on input line 155.
+Package pdftex.def Info: RtaImpulso.png  used on input line 158.
 (pdftex.def)             Requested size: 341.47342pt x 283.15593pt.
  [7 <./RtaImpulso.png>]
 <RtaCuadradaWo11.png, id=43, 349.18575pt x 289.08pt>
 File: RtaCuadradaWo11.png Graphic file (type png)
 <use RtaCuadradaWo11.png>
-Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 165.
+Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 168.
 (pdftex.def)             Requested size: 349.18489pt x 289.07928pt.
 [8 <./RtaCuadradaWo11.png (PNG copy)>]
-<RtaCuadradaWo12.png, id=47, 357.05673pt x 289.08pt>
+<RtaCuadradaWo12.png, id=50, 357.05673pt x 289.08pt>
 File: RtaCuadradaWo12.png Graphic file (type png)
 <use RtaCuadradaWo12.png>
-Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 171.
+Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 174.
 (pdftex.def)             Requested size: 357.05586pt x 289.07928pt.
  [9 <./RtaCuadradaWo12.png (PNG copy)>]
-<RtaCuadradaWo13.png, id=51, 351.33238pt x 287.64891pt>
+<RtaCuadradaWo13.png, id=54, 351.33238pt x 287.64891pt>
 File: RtaCuadradaWo13.png Graphic file (type png)
 <use RtaCuadradaWo13.png>
-Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 177.
+Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 180.
 (pdftex.def)             Requested size: 351.33151pt x 287.64821pt.
 
 [10 <./RtaCuadradaWo13.png (PNG copy)>]
-<RtaCuadradaWo21.png, id=55, 353.479pt x 290.5111pt>
+<RtaCuadradaWo21.png, id=58, 353.479pt x 290.5111pt>
 File: RtaCuadradaWo21.png Graphic file (type png)
 <use RtaCuadradaWo21.png>
-Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 185.
+Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 188.
 (pdftex.def)             Requested size: 353.47813pt x 290.51038pt.
  [11 <./RtaCuadradaWo21.png (PNG copy)>]
-<RtaCuadradaWo22.png, id=59, 350.61684pt x 286.21782pt>
+<RtaCuadradaWo22.png, id=62, 350.61684pt x 286.21782pt>
 File: RtaCuadradaWo22.png Graphic file (type png)
 <use RtaCuadradaWo22.png>
-Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 191.
+Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 194.
 (pdftex.def)             Requested size: 350.61597pt x 286.2171pt.
 [12 <./RtaCuadradaWo22.png (PNG copy)>]
-<RtaCuadradaWo23.png, id=63, 349.90129pt x 289.79555pt>
+<RtaCuadradaWo23.png, id=66, 349.90129pt x 289.79555pt>
 File: RtaCuadradaWo23.png Graphic file (type png)
 <use RtaCuadradaWo23.png>
-Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 197.
+Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 200.
 (pdftex.def)             Requested size: 349.90044pt x 289.79483pt.
  [13 <./RtaCuadradaWo23.png (PNG copy)>] (./TrabajoPracticoADC.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 14 (\begingroup)
+### semi simple group (level 1) entered at line 15 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2676 strings out of 483140
- 36139 string characters out of 5965151
- 262069 words of memory out of 5000000
- 17663 multiletter control sequences out of 15000+600000
- 541106 words of font info for 56 fonts, out of 8000000 for 9000
+ 3790 strings out of 483140
+ 56291 string characters out of 5965151
+ 277354 words of memory out of 5000000
+ 18766 multiletter control sequences out of 15000+600000
+ 544126 words of font info for 68 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,6n,27p,347b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,42p,347b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcos/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
 ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on TrabajoPracticoADC.pdf (13 pages, 380371 bytes).
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on TrabajoPracticoADC.pdf (13 pages, 404453 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
