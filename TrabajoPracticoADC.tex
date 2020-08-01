@@ -101,15 +101,27 @@ Finalmente, reemplazando con los valores de W y Q obtenidos podemos expresar la 
 \subsection*{Diagramas de Bode}
 
 A continuación se presentan los diagramas de Bode tanto de módulo como de fase (en grados sexagesimales) de la función $H(s)$ junto con una breve descripción explicando
-lo obtenido.
+lo obtenido. Para los diagramas de Bode se analiza el caso $s=jw$ donde $w$ se mide
+en $\frac{r}{s}$ (radianes por segundo).
 
 \begin{figure}[t!]
 \includegraphics[scale=0.7]{DiagramasBode.png}
-\caption{•}
+\caption{Diagramas de Bode}
 \end{figure}
 
 \newpage
-asdlkamdlksd
+En primer lugar tenemos el diagrama de módulo de Bode, es decir, el módulo de 
+$H(jw)$ medido en dB (decibeles) el cual viene dado por la\\ fórmula
+$20 \cdot \log(|H(jw)|)$. Dado que el filtro es un pasabanda era lo esperable
+observar que para frecuencias bajas ($w\longrightarrow0$) y altas ($w\longrightarrow\infty$) el gráfico tendiera a $-\infty$ dado que este tipo de
+filtro se caracteriza por anular la función de transferencia para dichas frecuencias.
+Esto puede verse matemáticamente en base al análisis previo realizado donde se calculó que $H(0) = 0$ y $\lim_{s \to \infty} H(s) = 0$, luego 
+$\lim_{x \to 0} \log(x) = -\infty$ lo cual explica lo observado en el primer gráfico.
+
+\bigskip
+asdsda
+
+\newpage
 \section*{Respuesta gráfica del sistema a distintas señales}
 
 
