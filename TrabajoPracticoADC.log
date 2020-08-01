@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  1 AUG 2020 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  1 AUG 2020 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,31 +264,49 @@ Package pdftex.def Info: RtaImpulso.png  used on input line 155.
 <RtaCuadradaWo11.png, id=43, 349.18575pt x 289.08pt>
 File: RtaCuadradaWo11.png Graphic file (type png)
 <use RtaCuadradaWo11.png>
-Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 163.
+Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 165.
 (pdftex.def)             Requested size: 349.18489pt x 289.07928pt.
 [8 <./RtaCuadradaWo11.png (PNG copy)>]
 <RtaCuadradaWo12.png, id=47, 357.05673pt x 289.08pt>
 File: RtaCuadradaWo12.png Graphic file (type png)
 <use RtaCuadradaWo12.png>
-Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 169.
+Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 171.
 (pdftex.def)             Requested size: 357.05586pt x 289.07928pt.
  [9 <./RtaCuadradaWo12.png (PNG copy)>]
 <RtaCuadradaWo13.png, id=51, 351.33238pt x 287.64891pt>
 File: RtaCuadradaWo13.png Graphic file (type png)
 <use RtaCuadradaWo13.png>
-Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 175.
+Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 177.
 (pdftex.def)             Requested size: 351.33151pt x 287.64821pt.
 
-[10 <./RtaCuadradaWo13.png (PNG copy)>] (./TrabajoPracticoADC.aux) )
+[10 <./RtaCuadradaWo13.png (PNG copy)>]
+<RtaCuadradaWo21.png, id=55, 353.479pt x 290.5111pt>
+File: RtaCuadradaWo21.png Graphic file (type png)
+<use RtaCuadradaWo21.png>
+Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 185.
+(pdftex.def)             Requested size: 353.47813pt x 290.51038pt.
+ [11 <./RtaCuadradaWo21.png (PNG copy)>]
+<RtaCuadradaWo22.png, id=59, 350.61684pt x 286.21782pt>
+File: RtaCuadradaWo22.png Graphic file (type png)
+<use RtaCuadradaWo22.png>
+Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 191.
+(pdftex.def)             Requested size: 350.61597pt x 286.2171pt.
+[12 <./RtaCuadradaWo22.png (PNG copy)>]
+<RtaCuadradaWo23.png, id=63, 349.90129pt x 289.79555pt>
+File: RtaCuadradaWo23.png Graphic file (type png)
+<use RtaCuadradaWo23.png>
+Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 197.
+(pdftex.def)             Requested size: 349.90044pt x 289.79483pt.
+ [13 <./RtaCuadradaWo23.png (PNG copy)>] (./TrabajoPracticoADC.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 14 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2658 strings out of 483140
- 35740 string characters out of 5965151
+ 2676 strings out of 483140
+ 36139 string characters out of 5965151
  262069 words of memory out of 5000000
- 17648 multiletter control sequences out of 15000+600000
+ 17663 multiletter control sequences out of 15000+600000
  541106 words of font info for 56 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,6n,27p,347b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -303,10 +321,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb>
-Output written on TrabajoPracticoADC.pdf (10 pages, 287381 bytes).
+Output written on TrabajoPracticoADC.pdf (13 pages, 380371 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
