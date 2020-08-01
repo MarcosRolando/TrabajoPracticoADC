@@ -114,7 +114,8 @@ en $\frac{r}{s}$ (radianes por segundo).
 \newpage
 En primer lugar tenemos el diagrama de módulo de Bode, es decir, el módulo de 
 $H(jw)$ medido en dB (decibeles) el cual viene dado por la\\ fórmula
-$20 \cdot \log(|H(jw)|)$. Dado que el filtro es un pasabanda era lo esperable
+\[20 \cdot \log(|H(jw)|) dB\]
+Dado que el filtro es un pasabanda era lo esperable
 observar que para frecuencias bajas ($w\longrightarrow0$) y altas ($w\longrightarrow\infty$) el gráfico tendiera a $-\infty$ dado que este tipo de
 filtro se caracteriza por anular la función de transferencia para dichas frecuencias.
 Esto puede verse matemáticamente en base al análisis previo realizado donde se calculó que $H(0) = 0$ y $\lim_{s \to \infty} H(s) = 0$, luego 
@@ -122,9 +123,11 @@ $\lim_{x \to 0} \log(x) = -\infty$ lo cual explica lo observado en el primer gr�
 
 \bigskip
 El segundo gráfico es el diagrama de fase de Bode (en grados sexagesimales). 
-Los valores de este gráfico vienen dados por la fórmula $\arctan(\frac{\Im(H(jw))}{\Re(H(jw)})$
+Los valores de este gráfico vienen dados por la fórmula 
+\[\arctan(\frac{\Im(H(jw))}{\Re(H(jw)})\]
 Dado que el numerador de la función se compone de un único término $3948 \cdot s^2$ 
-tenemos que la constante positiva aporta $0\degree$ mientras que el  
+tenemos que la constante positiva aporta $0\degree$ mientras que el $s^2$ aporta
+$180\degree$ (recordemos que $s=jw$ lo cual tiene un ángulo de $90\degree$, luego elevar al cuadrado duplica el ángulo y obtenemos $180\degree$).   
 
 \newpage
 \section*{Respuesta gráfica del sistema a distintas señales}
