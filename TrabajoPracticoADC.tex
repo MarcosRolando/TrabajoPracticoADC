@@ -198,7 +198,7 @@ $W_{0_{2}} \approx 650,2 \frac{r}{s}$) y vimos en el diagrama de Bode que para l
 
 \newpage
 \begin{figure}[h!]
-\includegraphics[scale=0.99]{RtaSenoidalAlto.png}
+\includegraphics[scale=0.98]{RtaSenoidalAlto.png}
 \caption{Respuesta a la senoidal de frecuencia $w = 5000\frac{r}{s}$}
 \end{figure}
 
@@ -210,14 +210,22 @@ por lo tanto anulará las señales de altas frecuencias.
 \newpage
 \subsubsection*{Respuesta a la cuadrada}
 
+Esta sección se dividirá en dos subsecciones, en la primera analizaremos las cuadradas de frecuencias relacionadas con la de $W_{0_{1}} \approx 607,3$ y en la siguiente para las cuadradas de frecuencias relacionadas a $W_{0_{2}}$. Recordemos que $f = \frac{W}{2 \cdot \pi}$
+
 \subsubsection*{Frecuencia $f_{0_{1}}$}
+
+Para $W_{0_{1}}$ tenemos que $f_{0_{1}} = \frac{W_{0_{1}}}{2 \cdot \pi} \approx 96,65Hz$.
 
 \begin{figure}[h!]
 \includegraphics[scale=1]{RtaCuadradaWo11.png}
 \caption{Respuesta a la cuadrada de frecuencia $\frac{f_{0_{1}}}{10}$}
 \end{figure}
 
-\newpage
+Para una señal cuadrada de frecuencia $f_{0_{1}}/10 \approx 9,665Hz$ vemos que 
+la respuesta oscila constantemente alrededor de cero, y dado que es un filtro pasabanda no reacciona a ninguno de los flancos (los flancos tendrían una frecuencia
+prácticamente infinita y el filtro pasabanda, como vimos antes, no reacciona a dicha frecuencia). Comparando gráficos vemos que la respuesta a esta señal cuadrada se asemeja a la respuesta al escalón con la diferencia de que, debido a que estamos excitandola constantemente y no dejamos que alcance frecuencia cero, la respuesta nunca se extingue sino que repite constantemente el final de la respuesta al escalón.
+
+\bigskip
 \begin{figure}[h!]
 \includegraphics[scale=1]{RtaCuadradaWo12.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{1}}$}
