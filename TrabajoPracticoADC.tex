@@ -149,7 +149,12 @@ de señales y frecuencias.
 \caption{Respuesta al escalón}
 \end{figure}
 
-Vemos que 
+Vemos que al ser un filtro pasabanda nuestro sistema no reacciona al instante 
+$t=0^{+}$ el cual correspondería a una frecuencia $w\longrightarrow \infty$.
+Luego obtenemos una respuesta oscilatoria (esperable dado que se tienen polos
+complejos) que va tendiendo a cero a medida que pasa el tiempo (debido a los factores
+exponenciales decrecientes provenientes de la parte real negativa de las raíces de los polos). Cuando $t\longrightarrow \infty$ tenemos que $w\longrightarrow 0$ y
+se da, como era esperable dado el análisis previo, que la respuesta del sistema tiende a cero y logrando estabilizarse.
 
 \newpage
 \subsubsection*{Respuesta al impulso}
@@ -175,7 +180,7 @@ Vemos que
 
 \newpage
 \begin{figure}[h!]
-\includegraphics[scale=1]{RtaSenoidalAlto.png}
+\includegraphics[scale=0.99]{RtaSenoidalAlto.png}
 \caption{Respuesta a la senoidal de frecuencia $w = 2000\frac{r}{s}$}
 \end{figure}
 
