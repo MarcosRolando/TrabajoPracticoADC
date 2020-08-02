@@ -121,6 +121,8 @@ observar que para frecuencias bajas ($w\longrightarrow0$) y altas ($w\longrighta
 filtro se caracteriza por anular la función de transferencia para dichas frecuencias.
 Esto puede verse matemáticamente en base al análisis previo realizado donde se calculó que $H(0) = 0$ y $\lim_{s \to \infty} H(s) = 0$, luego 
 $\lim_{x \to 0} \log(x) = -\infty$ lo cual explica lo observado en el primer gráfico.
+Por último, para las frecuencias en el intervalo $(W_{0_{1}}, W_{0_{2}})$ se aprecia una ganancia que tiende a $0dB$ lo que implica una salida de igual amplitud a la de
+la señal de entrada (esta es la banda que nuestro filtro deja pasar sin amortiguar).
 
 \bigskip
 El segundo gráfico es el diagrama de fase de Bode (en grados sexagesimales). 
@@ -188,6 +190,11 @@ Para una señal senoidal de frecuencia $w = 1\frac{r}{s}$ y $1V$ de amplitud vem
 \includegraphics[scale=1]{RtaSenoidalMedio.png}
 \caption{Respuesta a la senoidal de frecuencia $w = 630\frac{r}{s}$}
 \end{figure}
+
+Vemos que para una señal senoidal de frecuencia $w = 630\frac{r}{s}$ y amplitud
+$1V$ al estabilizarse la respuesta obtenemos que la amplitud de la misma coincide aproximadamente con la de la señal senoidal. Esto coincide con el análisis
+previo de la función de transferencia, ya que $w = 630\frac{r}{s}$ se encuentra a mitad de camino entre los $W_{0}$ calculados ($W_{0_{1}} \approx 607,3 \frac{r}{s}$ y 
+$W_{0_{2}} \approx 650,2 \frac{r}{s}$) y vimos en el diagrama de Bode que para la banda de frecuencias con $W_{0_{i}}$ de extremos la ganancia era de aproximadamente $0dB$, lo que significa que la la salida mantiene la amplitud de la entrada, tal y como podemos apreciar para la respuesta a esta señal senoidal.
 
 \newpage
 \begin{figure}[h!]
