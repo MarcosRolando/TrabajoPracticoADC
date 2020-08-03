@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  3 AUG 2020 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  3 AUG 2020 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,19 +338,19 @@ Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 261.
 
 [15
 
- <./RtaCuadradaWo23.png (PNG copy)>] (./TrabajoPracticoADC.aux) )
+ <./RtaCuadradaWo23.png (PNG copy)>] [16] (./TrabajoPracticoADC.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 15 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3808 strings out of 483140
- 56696 string characters out of 5965151
+ 3820 strings out of 483140
+ 56813 string characters out of 5965151
  277354 words of memory out of 5000000
- 18781 multiletter control sequences out of 15000+600000
- 544126 words of font info for 68 fonts, out of 8000000 for 9000
+ 18788 multiletter control sequences out of 15000+600000
+ 546008 words of font info for 75 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,7n,42p,534b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,42p,534b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcos/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
 ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
@@ -363,12 +363,13 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on TrabajoPracticoADC.pdf (15 pages, 553751 bytes).
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on TrabajoPracticoADC.pdf (16 pages, 570608 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -262,6 +262,20 @@ Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{2}} \cdot 10$}
 \end{figure}
 
+\section*{Circuito propuesto}
+
+Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) (de
+manera tal de conseguir el orden correcto de los polinomios de la función $H(s)$) más dos amplificadores inversores. El primer amplificador inversor permitirá ajustar
+la ganancia $H_{0}$ de forma tal de conseguir la correspondiente a la $H(s)$ asignada (la cual tiene un valor $H_{0} = 3948$). Sin embargo tendremos un efecto secundario indeseado dado que  que, al ser inversor, nos correrá $180\degree$ la fase de la salida. Para contrarrestar esto utilizaremos un segundo amplificador inversor, cuyo factor será $k = -1$, con el objetivo de corregir la fase modificada por el anterior
+amplificador inversor.
+
+\bigskip
+Respecto a la elección del MFBP por sobre otro tipo de filtros, esto se debe a la 
+facilidad que aporta diseñar el circuito con este tipo de filtro. La principal
+desventaja de este filtro es que es complicado conseguir secciones de frecuencias y Q altos ($Q > 20$) debido a las limitaciones de la ganancia de lazo abierto del amplificador operacional integrado.\footnote{Ver https://www.analog.com/media/en/training-seminars/design-handbooks/Op-Amp-Applications/Sections5-5-to-5-8.pdf, página 5.70} Dado que nuestra transferencia se compone por valores de $Q$ bajos ($Q < 20$) no habrá problemas en utilizar este tipo de filtro.
+
+\subsection*{Transferencia del MFPB}
+
 
 
 \end{document}
