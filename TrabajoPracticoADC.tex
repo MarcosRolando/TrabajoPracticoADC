@@ -284,12 +284,12 @@ A continuación se presenta un diagrama de un filtro Multiple Feedback Band-pass
 \end{figure}
 
 Para este tipo de filtro se tiene una transferencia del tipo
-\[H(s) = -H_{0} \cdot \frac{\frac{W_{0}}{Q} \cdot s}{s^2 + \frac{W_{0}}{Q} \cdot s + W_{0}^2}\]
+\[H_{MFBP}(s) = -H_{0} \cdot \frac{\frac{W_{0}}{Q} \cdot s}{s^2 + \frac{W_{0}}{Q} \cdot s + W_{0}^2}\]
 
 Para simplificar las expresiones y cuentas tomaremos $C1 = C2 = C$. Resolviendo el circuito mediante el método de nodos obtenemos que la función de transferencia puede expresarse como
 
 \bigskip
-\[H(s) = -\frac{R_{2}}{2 \cdot R_{1}} \cdot \frac{\frac{2}{C \cdot R_{2}} \cdot s}{s^2 + \frac{2}{C \cdot R_{2}} \cdot s + \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}}\]
+\[H_{MFBP}(s) = -\frac{R_{2}}{2 \cdot R_{1}} \cdot \frac{\frac{2}{C \cdot R_{2}} \cdot s}{s^2 + \frac{2}{C \cdot R_{2}} \cdot s + \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}}\]
 
 \newpage
 De las anteriores dos expresiones podemos inferir que
@@ -303,8 +303,12 @@ Despejando las $R_{i}$ en función de las demas variables obtenemos
 \[R_{3} = \frac{R_{1}}{\frac{2 \cdot Q^2}{H_{0}} - 1}\]
 
 Tomando $H_{0} = 1$ (utilizaremos amplificadores luego para conseguir la ganancia $H_{0}$ de nuestra función de transferencia) obtenemos finalmente el sistema
+
 \[R_{2} = \frac{2 \cdot Q}{C \cdot W_{0}}\]
 \[R_{1} = \frac{R_{2}}{2}\]
 \[R_{3} = \frac{R_{1}}{2 \cdot Q^2 - 1}\]
+
+donde $Q$ y $W_{0}$ son datos provenientes de nuestra función de transferencia, por lo que es cuestión tan solo de seleccionar un C adecuado, reemplazar y obtener los $R_{i}$. Antes de proceder a calcular los valores de estos elementos debemos expresar 
+la función de transferencia 
 
 \end{document}
