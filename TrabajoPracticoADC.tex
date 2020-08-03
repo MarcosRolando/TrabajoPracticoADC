@@ -286,6 +286,15 @@ A continuación se presenta un diagrama de un filtro Multiple Feedback Band-pass
 Para este tipo de filtro se tiene una transferencia del tipo
 \[H(s) = -H_{0} \cdot \frac{\frac{W_{0}}{Q} \cdot s}{s^2 + \frac{W_{0}}{Q} \cdot s + W_{0}^2}\]
 
+Para simplificar las expresiones y cuentas tomaremos $C1 = C2 = C$. Resolviendo el circuito mediante el método de nodos obtenemos que la función de transferencia puede expresarse como
 
+\bigskip
+\[H(s) = -\frac{R_{2}}{2 \cdot R_{1}} \cdot \frac{\frac{2}{C \cdot R_{2}} \cdot s}{s^2 + \frac{2}{C \cdot R_{2}} \cdot s + \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}}\]
+
+\newpage
+De las anteriores dos expresiones podemos inferir que
+\[H_{0} = \frac{R_{2}}{2 \cdot R_{1}}\]
+\[\frac{W_{0}}{Q} = \frac{2}{C \cdot R_{2}}\]
+\[W_{0}^2 = \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}\]
 
 \end{document}
