@@ -266,7 +266,7 @@ Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0
 
 Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) (de
 manera tal de conseguir el orden correcto de los polinomios de la función $H(s)$) más dos amplificadores inversores. El primer amplificador inversor permitirá ajustar
-la ganancia $H_{0}$ de forma tal de conseguir la correspondiente a la $H(s)$ asignada (la cual tiene un valor $H_{0} = 3948$). Sin embargo tendremos un efecto secundario indeseado dado que  que, al ser inversor, nos correrá $180\degree$ la fase de la salida. Para contrarrestar esto utilizaremos un segundo amplificador inversor, cuyo factor será $k = -1$, con el objetivo de corregir la fase modificada por el anterior
+la constante $H_{0}$ de forma tal de conseguir la correspondiente a la $H(s)$ asignada. Sin embargo tendremos un efecto secundario indeseado dado que  que, al ser inversor, nos correrá $180\degree$ la fase de la salida. Para contrarrestar esto utilizaremos un segundo amplificador inversor, cuyo factor será $k = -1$, con el objetivo de corregir la fase modificada por el anterior
 amplificador inversor.
 
 \bigskip
@@ -296,5 +296,12 @@ De las anteriores dos expresiones podemos inferir que
 \[H_{0} = \frac{R_{2}}{2 \cdot R_{1}}\]
 \[\frac{W_{0}}{Q} = \frac{2}{C \cdot R_{2}}\]
 \[W_{0}^2 = \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}\]
+
+Despejando las $R_{i}$ en función de las demas variables obtenemos
+\[R_{2} = \frac{2 \cdot Q}{C \cdot W_{0}}\]
+\[R_{1} = \frac{R_{2}}{2 \cdot H_{0}}\]
+\[R_{3} = \frac{R_{1}}{\frac{2 \cdot Q^2}{H_{0}} - 1}\]
+
+
 
 \end{document}
