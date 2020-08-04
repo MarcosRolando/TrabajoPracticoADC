@@ -264,13 +264,7 @@ Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0
 
 \section*{Circuito propuesto}
 
-Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) (de
-manera tal de conseguir el orden correcto de los polinomios de la función $H(s)$) más dos amplificadores inversores. El primer amplificador inversor permitirá ajustar
-la ganancia $H_{0}$ de forma tal de conseguir la correspondiente a la $H(s)$ asignada. Sin embargo tendremos un efecto secundario indeseado dado que  que, al ser inversor, nos correrá $180\degree$ la fase de la salida. Para contrarrestar esto utilizaremos un segundo amplificador inversor, cuyo factor será $k = -1$, con el objetivo de corregir la fase modificada por el anterior
-amplificador inversor.
-
-\bigskip
-Respecto a la elección del MFBP por sobre otro tipo de filtros, esto se debe a la 
+Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) . La elección del MFBP por sobre otro tipo de filtros se debe a la 
 facilidad que aporta diseñar el circuito con este tipo de filtro. La principal
 desventaja de este filtro es que es complicado conseguir secciones de frecuencias y Q altos ($Q > 20$) debido a las limitaciones de la ganancia de lazo abierto del amplificador operacional integrado.\footnote{Ver https://www.analog.com/media/en/training-seminars/design-handbooks/Op-Amp-Applications/Sections5-5-to-5-8.pdf, página 5.70} Dado que nuestra transferencia se compone por valores de $Q$ bajos ($Q < 20$) no habrá problemas en utilizar este tipo de filtro.
 
@@ -291,7 +285,6 @@ Para simplificar las expresiones y cuentas tomaremos $C1 = C2 = C$. Resolviendo 
 \bigskip
 \[H_{MFBP}(s) = -\frac{R_{2}}{2 \cdot R_{1}} \cdot \frac{\frac{2}{C \cdot R_{2}} \cdot s}{s^2 + \frac{2}{C \cdot R_{2}} \cdot s + \frac{1+\frac{R_{1}}{R_{3}}}{C^2 \cdot R_{1} \cdot R_{2}}}\]
 
-\newpage
 De las anteriores dos expresiones podemos inferir que
 \[H_{0} = \frac{R_{2}}{2 \cdot R_{1}}\]
 \[\frac{W_{0}}{Q} = \frac{2}{C \cdot R_{2}}\]
@@ -301,12 +294,6 @@ Despejando las $R_{i}$ en función de las demas variables obtenemos
 \[R_{2} = \frac{2 \cdot Q}{C \cdot W_{0}}\]
 \[R_{1} = \frac{R_{2}}{2 \cdot H_{0}}\]
 \[R_{3} = \frac{R_{1}}{\frac{2 \cdot Q^2}{H_{0}} - 1}\]
-
-Tomando $H_{0} = 1$ (utilizaremos amplificadores luego para conseguir la ganancia $H_{0}$ de nuestra función de transferencia) obtenemos finalmente el sistema
-
-\[R_{2} = \frac{2 \cdot Q}{C \cdot W_{0}}\]
-\[R_{1} = \frac{R_{2}}{2}\]
-\[R_{3} = \frac{R_{1}}{2 \cdot Q^2 - 1}\]
 
 donde $Q$ y $W_{0}$ son datos provenientes de nuestra función de transferencia, por lo que es cuestión tan solo de seleccionar un C adecuado, reemplazar y obtener los $R_{i}$. Antes de proceder a calcular los valores de estos elementos debemos expresar 
 la función de transferencia $H(s)$ de forma tal que podamos aplicarle las ecuaciones previas. 
@@ -320,6 +307,42 @@ Reescribiendolo para que se adapte a la forma de los filtros MFBP\\ tendríamos
 \[H(s) \approx 2 \cdot \frac{42,81 \cdot s}{(s^2+42,81 \cdot s + 607,3^2)}
 \cdot \frac{46,05 \cdot s}{(s^2+46,05 \cdot s + 650,2^2)}\]
 
-de forma tal que tenemos dos filtros MFBP, por lo tanto tendremos que encontrar las constantes $C$, $R_{1}$, $R_{2}$ y $R_{3}$ para cada uno. Una vez que\\ hayamos obtenido dichos valores será cuestión de colocar ambos filtros MFBP en cascada para conseguir que las fracciones de $H(s)$ y por último utilizar amplificadores operacionales para conseguir $H_{0} = 2$.
+de forma tal que tenemos dos filtros MFBP, por lo tanto tendremos que encontrar las constantes $H_{0}$, $C$, $R_{1}$, $R_{2}$ y $R_{3}$ para cada uno. 
+
+\section*{Cálculo de los componentes}
+
+Comenzaremos calculando los valores para el MFBP de frecuencia \\$W_{0} \approx 607,3 \frac{r}{s}$ y $Q \approx 14,19$. La idea es conseguir valores ideales de resistencias que se aproximen lo más posible a valores normalizados (de forma tal de disminuir el error al normalizar) manteniendonos en un rango de resistencias de $1K\Omega$ a $1M\Omega$.
+Para esto eligiremos el valor del capacitor C (normalizado) que de mejores resultados; dicho capacitor debe tener un valor de entre $1nF$ y $1 \mu F$.
+
+\bigskip
+El otro factor a variar junto con el C es el $H_{0}$ del MFBP. Tenemos que para la transferencia $H(s)$ debe suceder que $H_{0} \approx 2$, para lo cual debemos lograr que la multiplicación entre los $H_{0}$ de los filtros MFBP den aproximadamente 2. Si bien hay infinitas combinaciones posibles en la teoría, en la práctica nos vemos limitados por las otras condiciones del sistema. Se encontró que los mejores valores posibles (los valores que disminuyen la diferencia de las resistencias ideales con las normalizadas y cumplen las condiciones de rango de las resistencias) son
+\[H_{0_{1}} = 0,5\]
+\[H_{0_{2}} = 4\]
+
+Volviendo al análisis del primer filtro, se llegó a que el mejor valor posible de C es
+\[C = 47nF\]
+
+obteniendose las siguientes resistencias
+\[R_{1} \approx 994,0497621K\Omega\]
+\[R_{2} \approx 994,0497621K\Omega\]
+\[R_{3} \approx 1,236504032K\Omega\]
+
+Normalizando obtenemos entonces que
+\[R_{1} = 1M\Omega\]
+\[R_{2} = 1M\Omega\]
+\[R_{3} = 1,2K\Omega\]
+
+Para el segundo filtro se llegó a un C tal que
+\[C = 56nF\]
+
+obteniendose las resistencias
+\[R_{1} \approx 775,5193028K\Omega\]
+\[R_{2} \approx 96,93991285K\Omega\]
+\[R_{3} \approx 982,4374972\Omega\]
+
+Normalizando obtenemos
+\[R_{1} = 820K\Omega\]
+\[R_{2} = 100K\Omega\]
+\[R_{3} = 1K\Omega\]
 
 \end{document}
