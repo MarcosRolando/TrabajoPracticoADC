@@ -159,7 +159,7 @@ exponenciales decrecientes provenientes de la parte real negativa de las raíces
 se da, como era esperable dado el análisis previo, que la respuesta del sistema tiende a cero y logrando estabilizarse.
 
 \bigskip
-Si analizamos el instante donde $t = 0,15s$ podemos observar un comportamiento en principio extraño, donde nuestra señal disminuye considerablemente para luego volver a crecer y finalmente anularse. Esto se debe a que la respuesta al escalón es una función compuesta por funciones senoidales de igual fase y frecuencias muy cercanas entre sí (recordemos que $W_{0_{1}} \approx 607,3\frac{r}{s}$ y $W_{0_{2}} \approx 650,2\frac{r}{s}$) donde la amplitud de estas senoidales viene dada por funciónes exponenciales negativas de $\tau$ (\textit{taus}) cercanos entre sí ($\tau_{1} \approx 21,03s$, $\tau_{2} \approx 23,03s$), lo que da como resultado el efecto de \textit{batido} para esa intervalo de tiempo específico. Los siguientes gráficos ayudan a ejemplificar este efecto de batido.
+Si analizamos el instante donde $t = 0,15s$ podemos observar un comportamiento en principio extraño, donde nuestra señal disminuye considerablemente para luego volver a crecer y finalmente anularse. Esto se debe a que la respuesta al escalón es una función compuesta por funciones senoidales de igual fase y frecuencias muy cercanas entre sí (recordemos que $W_{0_{1}} \approx 607,3\frac{r}{s}$ y $W_{0_{2}} \approx 650,2\frac{r}{s}$) donde la amplitud de estas senoidales viene dada por funciónes exponenciales negativas de $\tau$ (\textit{taus}) cercanos entre sí ($\tau_{1} \approx 21,03s$, $\tau_{2} \approx 23,03s$), lo que da como resultado el efecto de \textit{batido} para esa intervalo de tiempo específico. Los siguientes gráficos ayudan a ejemplificar este efecto de batido. \footnote{https://ricuti.com.ar/no\_ me\_ salen/ondas/Ap\_ ond\_ 14.html}
 
 \bigskip
 \begin{figure}[h!]
@@ -286,7 +286,7 @@ Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0
 
 Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) . La elección del MFBP por sobre otro tipo de filtros se debe a la 
 facilidad que aporta diseñar el circuito con este tipo de filtro. La principal
-desventaja de este filtro es que es complicado conseguir secciones de frecuencias y Q altos ($Q > 20$) debido a las limitaciones de la ganancia de lazo abierto del amplificador operacional integrado.\footnote{Ver https://www.analog.com/media/en/training-seminars/design-handbooks/Op-Amp-Applications/Sections5-5-to-5-8.pdf, página 5.70} Dado que nuestra transferencia se compone por valores de $Q$ bajos ($Q < 20$) no habrá problemas en utilizar este tipo de filtro.
+desventaja de este filtro es que es complicado conseguir secciones de frecuencias y Q altos ($Q > 20$) debido a las limitaciones de la ganancia de lazo abierto del amplificador operacional integrado.\footnote{https://www.analog.com/media/en/training-seminars/design-handbooks/Op-Amp-Applications/Sections5-5-to-5-8.pdf, página 5.70} Dado que nuestra transferencia se compone por valores de $Q$ bajos ($Q < 20$) no habrá problemas en utilizar este tipo de filtro.
 
 \subsection*{Transferencia del MFPB}
 

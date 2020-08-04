@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  4 AUG 2020 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  4 AUG 2020 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,66 +287,66 @@ File: EfectoBatidoExtendido.png Graphic file (type png)
 Package pdftex.def Info: EfectoBatidoExtendido.png  used on input line 176.
 (pdftex.def)             Requested size: 337.02065pt x 61.53667pt.
  [7 <./EfectoBatido.png (PNG copy)> <./EfectoBatidoExtendido.png (PNG copy)>]
-<RtaImpulso.png, id=44, 487.8225pt x 404.51125pt>
+<RtaImpulso.png, id=45, 487.8225pt x 404.51125pt>
 File: RtaImpulso.png Graphic file (type png)
 <use RtaImpulso.png>
 Package pdftex.def Info: RtaImpulso.png  used on input line 184.
 (pdftex.def)             Requested size: 341.47342pt x 283.15593pt.
  [8 <./RtaImpulso.png>]
-<RtaSenoidalBajo.png, id=49, 374.94534pt x 286.93336pt>
+<RtaSenoidalBajo.png, id=50, 374.94534pt x 286.93336pt>
 File: RtaSenoidalBajo.png Graphic file (type png)
 <use RtaSenoidalBajo.png>
 Package pdftex.def Info: RtaSenoidalBajo.png  used on input line 201.
 (pdftex.def)             Requested size: 359.94916pt x 275.45728pt.
 
 [9 <./RtaSenoidalBajo.png (PNG copy)>]
-<RtaSenoidalMedio.png, id=54, 349.90129pt x 285.50227pt>
+<RtaSenoidalMedio.png, id=55, 349.90129pt x 285.50227pt>
 File: RtaSenoidalMedio.png Graphic file (type png)
 <use RtaSenoidalMedio.png>
 Package pdftex.def Info: RtaSenoidalMedio.png  used on input line 209.
 (pdftex.def)             Requested size: 349.90044pt x 285.50156pt.
  [10 <./RtaSenoidalMedio.png (PNG copy)>]
-<RtaSenoidalAlto.png, id=59, 361.35pt x 286.93336pt>
+<RtaSenoidalAlto.png, id=60, 361.35pt x 286.93336pt>
 File: RtaSenoidalAlto.png Graphic file (type png)
 <use RtaSenoidalAlto.png>
 Package pdftex.def Info: RtaSenoidalAlto.png  used on input line 220.
 (pdftex.def)             Requested size: 354.12059pt x 281.19278pt.
 [11 <./RtaSenoidalAlto.png (PNG copy)>]
-<RtaCuadradaWo11.png, id=63, 347.75465pt x 285.50227pt>
+<RtaCuadradaWo11.png, id=64, 347.75465pt x 285.50227pt>
 File: RtaCuadradaWo11.png Graphic file (type png)
 <use RtaCuadradaWo11.png>
 Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 239.
 (pdftex.def)             Requested size: 347.7538pt x 285.50156pt.
  [12 <./RtaCuadradaWo11.png (PNG copy)>]
-<RtaCuadradaWo12.png, id=69, 350.61684pt x 286.21782pt>
+<RtaCuadradaWo12.png, id=70, 350.61684pt x 286.21782pt>
 File: RtaCuadradaWo12.png Graphic file (type png)
 <use RtaCuadradaWo12.png>
 Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 250.
 (pdftex.def)             Requested size: 350.61597pt x 286.2171pt.
 [13 <./RtaCuadradaWo12.png (PNG copy)>] [14]
-<RtaCuadradaWo13.png, id=77, 351.33238pt x 287.64891pt>
+<RtaCuadradaWo13.png, id=78, 351.33238pt x 287.64891pt>
 File: RtaCuadradaWo13.png Graphic file (type png)
 <use RtaCuadradaWo13.png>
 Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 262.
 (pdftex.def)             Requested size: 351.33151pt x 287.64821pt.
-<RtaCuadradaWo21.png, id=78, 352.76346pt x 289.79555pt>
+<RtaCuadradaWo21.png, id=79, 352.76346pt x 289.79555pt>
 File: RtaCuadradaWo21.png Graphic file (type png)
 <use RtaCuadradaWo21.png>
 Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 273.
 (pdftex.def)             Requested size: 335.12337pt x 275.3042pt.
-<RtaCuadradaWo22.png, id=79, 347.75465pt x 287.64891pt>
+<RtaCuadradaWo22.png, id=80, 347.75465pt x 287.64891pt>
 File: RtaCuadradaWo22.png Graphic file (type png)
 <use RtaCuadradaWo22.png>
 Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 275.
 (pdftex.def)             Requested size: 330.36504pt x 273.26491pt.
  [15 <./RtaCuadradaWo13.png (PNG copy)>] [16 <./RtaCuadradaWo21.png (PNG copy)>
  <./RtaCuadradaWo22.png (PNG copy)>]
-<RtaCuadradaWo23.png, id=86, 350.61684pt x 289.08pt>
+<RtaCuadradaWo23.png, id=87, 350.61684pt x 289.08pt>
 File: RtaCuadradaWo23.png Graphic file (type png)
 <use RtaCuadradaWo23.png>
 Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 281.
 (pdftex.def)             Requested size: 350.61597pt x 289.07928pt.
-<MFBP.png, id=87, 387.82515pt x 151.69545pt>
+<MFBP.png, id=88, 387.82515pt x 151.69545pt>
 File: MFBP.png Graphic file (type png)
 <use MFBP.png>
 Package pdftex.def Info: MFBP.png  used on input line 296.
@@ -360,13 +360,13 @@ Package pdftex.def Info: MFBP.png  used on input line 296.
 ### semi simple group (level 1) entered at line 15 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3840 strings out of 483140
- 57188 string characters out of 5965151
+ 3841 strings out of 483140
+ 57206 string characters out of 5965151
  278354 words of memory out of 5000000
- 18804 multiletter control sequences out of 15000+600000
+ 18805 multiletter control sequences out of 15000+600000
  546354 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,42p,838b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,42p,912b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcos/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
 ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
@@ -383,7 +383,7 @@ amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TrabajoPracticoADC.pdf (21 pages, 690247 bytes).
+Output written on TrabajoPracticoADC.pdf (21 pages, 690664 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams
