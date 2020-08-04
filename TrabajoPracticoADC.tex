@@ -158,6 +158,25 @@ complejos) que va tendiendo a cero a medida que pasa el tiempo (debido a los fac
 exponenciales decrecientes provenientes de la parte real negativa de las raíces de los polos). Cuando $t\longrightarrow \infty$ tenemos que $w\longrightarrow 0$ y
 se da, como era esperable dado el análisis previo, que la respuesta del sistema tiende a cero y logrando estabilizarse.
 
+\bigskip
+Si analizamos el instante donde $t = 0,15s$ podemos observar un comportamiento en principio extraño, donde nuestra señal disminuye considerablemente para luego volver a crecer y finalmente anularse. Esto se debe a que la respuesta al escalón es una función compuesta por funciones senoidales de igual fase y frecuencias muy cercanas entre sí (recordemos que $W_{0_{1}} \approx 607,3\frac{r}{s}$ y $W_{0_{2}} \approx 650,2\frac{r}{s}$) donde la amplitud de estas senoidales viene dada por funciónes exponenciales negativas de $\tau$ (\textit{taus}) cercanos entre sí ($\tau_{1} \approx 21,03s$, $\tau_{2} \approx 23,03s$), lo que da como resultado el efecto de \textit{batido} para esa intervalo de tiempo específico. Los siguientes gráficos ayudan a ejemplificar este efecto de batido.
+
+\bigskip
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{EfectoBatido.png}
+\caption{Efecto de batido entre dos funciones senoidales}
+\end{figure}
+
+Si no tuvieramos las exponenciales negativas que nos "matan" la señal observaríamos lo siguiente a medida que avanzacemos en la escala del tiempo.
+
+\bigskip
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{EfectoBatidoExtendido.png}
+\caption{Efecto de batido extendido en el tiempo}
+\end{figure}
+
 \newpage
 \subsubsection*{Respuesta al impulso}
 
