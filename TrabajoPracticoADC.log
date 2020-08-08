@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  7 AUG 2020 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  8 AUG 2020 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -142,6 +142,12 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks22
+\AP@partial=\box47
+\AP@footins=\box48
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
@@ -151,7 +157,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks23
 )
 \captionmargin=\dimen145
 \captionmargin@=\dimen146
@@ -188,39 +194,39 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count191
-\l__pdf_internal_box=\box47
+\l__pdf_internal_box=\box49
 )
 (./TrabajoPracticoADC.aux)
 \openout1 = `TrabajoPracticoADC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 15.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 14.
+LaTeX Info: Redefining \selectfont on input line 15.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 14.
-Package gensymb Info: Math companion symbols declared on input line 14.
-LaTeX Info: Redefining \degree on input line 14.
-LaTeX Info: Redefining \celsius on input line 14.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 15.
+Package gensymb Info: Math companion symbols declared on input line 15.
+LaTeX Info: Redefining \degree on input line 15.
+LaTeX Info: Redefining \celsius on input line 15.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 14.
-LaTeX Info: Redefining \ohm on input line 14.
-Package gensymb Info: Using \textohm for \ohm on input line 14.
-Package gensymb Info: Using \textmu for \micro on input line 14.
+erthousand on input line 15.
+LaTeX Info: Redefining \ohm on input line 15.
+Package gensymb Info: Using \textohm for \ohm on input line 15.
+Package gensymb Info: Using \textmu for \micro on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -228,15 +234,15 @@ Package caption Info: End \AtBeginDocument code.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count192
 \scratchdimen=\dimen154
-\scratchbox=\box48
+\scratchbox=\box50
 \nofMPsegments=\count193
 \nofMParguments=\count194
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count195
 \MPscratchDim=\dimen155
 \MPnumerator=\count196
 \makeMPintoPDFobject=\count197
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -246,13 +252,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -263,7 +269,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <DiagramasBode.png, id=17, 471.7625pt x 553.06625pt>
 File: DiagramasBode.png Graphic file (type png)
 <use DiagramasBode.png>
-Package pdftex.def Info: DiagramasBode.png  used on input line 111.
+Package pdftex.def Info: DiagramasBode.png  used on input line 112.
 (pdftex.def)             Requested size: 330.23149pt x 387.14374pt.
 
 
@@ -273,101 +279,128 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <RtaEscalon.png, id=32, 500.87125pt x 410.53375pt>
 File: RtaEscalon.png Graphic file (type png)
 <use RtaEscalon.png>
-Package pdftex.def Info: RtaEscalon.png  used on input line 150.
+Package pdftex.def Info: RtaEscalon.png  used on input line 151.
 (pdftex.def)             Requested size: 350.60747pt x 287.37166pt.
  [6 <./RtaEscalon.png>]
 <EfectoBatido.png, id=37, 334.87485pt x 137.38455pt>
 File: EfectoBatido.png Graphic file (type png)
 <use EfectoBatido.png>
-Package pdftex.def Info: EfectoBatido.png  used on input line 167.
+Package pdftex.def Info: EfectoBatido.png  used on input line 168.
 (pdftex.def)             Requested size: 334.87402pt x 137.3842pt.
 <EfectoBatidoExtendido.png, id=38, 337.02148pt x 61.53683pt>
 File: EfectoBatidoExtendido.png Graphic file (type png)
 <use EfectoBatidoExtendido.png>
-Package pdftex.def Info: EfectoBatidoExtendido.png  used on input line 176.
+Package pdftex.def Info: EfectoBatidoExtendido.png  used on input line 177.
 (pdftex.def)             Requested size: 337.02065pt x 61.53667pt.
  [7 <./EfectoBatido.png (PNG copy)> <./EfectoBatidoExtendido.png (PNG copy)>]
 <RtaImpulso.png, id=45, 487.8225pt x 404.51125pt>
 File: RtaImpulso.png Graphic file (type png)
 <use RtaImpulso.png>
-Package pdftex.def Info: RtaImpulso.png  used on input line 184.
+Package pdftex.def Info: RtaImpulso.png  used on input line 185.
 (pdftex.def)             Requested size: 341.47342pt x 283.15593pt.
  [8 <./RtaImpulso.png>]
 <RtaSenoidalBajo.png, id=50, 374.94534pt x 286.93336pt>
 File: RtaSenoidalBajo.png Graphic file (type png)
 <use RtaSenoidalBajo.png>
-Package pdftex.def Info: RtaSenoidalBajo.png  used on input line 201.
+Package pdftex.def Info: RtaSenoidalBajo.png  used on input line 202.
 (pdftex.def)             Requested size: 359.94916pt x 275.45728pt.
 
 [9 <./RtaSenoidalBajo.png (PNG copy)>]
 <RtaSenoidalMedio.png, id=55, 349.90129pt x 285.50227pt>
 File: RtaSenoidalMedio.png Graphic file (type png)
 <use RtaSenoidalMedio.png>
-Package pdftex.def Info: RtaSenoidalMedio.png  used on input line 209.
+Package pdftex.def Info: RtaSenoidalMedio.png  used on input line 210.
 (pdftex.def)             Requested size: 349.90044pt x 285.50156pt.
  [10 <./RtaSenoidalMedio.png (PNG copy)>]
 <RtaSenoidalAlto.png, id=60, 361.35pt x 286.93336pt>
 File: RtaSenoidalAlto.png Graphic file (type png)
 <use RtaSenoidalAlto.png>
-Package pdftex.def Info: RtaSenoidalAlto.png  used on input line 220.
+Package pdftex.def Info: RtaSenoidalAlto.png  used on input line 221.
 (pdftex.def)             Requested size: 354.12059pt x 281.19278pt.
 [11 <./RtaSenoidalAlto.png (PNG copy)>]
 <RtaCuadradaWo11.png, id=64, 347.75465pt x 285.50227pt>
 File: RtaCuadradaWo11.png Graphic file (type png)
 <use RtaCuadradaWo11.png>
-Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 239.
+Package pdftex.def Info: RtaCuadradaWo11.png  used on input line 240.
 (pdftex.def)             Requested size: 347.7538pt x 285.50156pt.
  [12 <./RtaCuadradaWo11.png (PNG copy)>]
 <RtaCuadradaWo12.png, id=70, 350.61684pt x 286.21782pt>
 File: RtaCuadradaWo12.png Graphic file (type png)
 <use RtaCuadradaWo12.png>
-Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 250.
+Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 251.
 (pdftex.def)             Requested size: 350.61597pt x 286.2171pt.
 <RtaCuadradaWo13.png, id=71, 351.33238pt x 287.64891pt>
 File: RtaCuadradaWo13.png Graphic file (type png)
 <use RtaCuadradaWo13.png>
-Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 260.
+Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 261.
 (pdftex.def)             Requested size: 351.33151pt x 287.64821pt.
 [13 <./RtaCuadradaWo12.png (PNG copy)>]
 <RtaCuadradaWo21.png, id=76, 352.76346pt x 289.79555pt>
 File: RtaCuadradaWo21.png Graphic file (type png)
 <use RtaCuadradaWo21.png>
-Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 271.
+Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 272.
 (pdftex.def)             Requested size: 335.12337pt x 275.3042pt.
 <RtaCuadradaWo22.png, id=77, 347.75465pt x 287.64891pt>
 File: RtaCuadradaWo22.png Graphic file (type png)
 <use RtaCuadradaWo22.png>
-Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 273.
+Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 274.
 (pdftex.def)             Requested size: 330.36504pt x 273.26491pt.
- [14 <./RtaCuadradaWo13.png (PNG copy)>] [15 <./RtaCuadradaWo21.png (PNG copy)>
- <./RtaCuadradaWo22.png (PNG copy)>]
-<RtaCuadradaWo23.png, id=84, 350.61684pt x 289.08pt>
+<RtaCuadradaWo23.png, id=78, 350.61684pt x 289.08pt>
 File: RtaCuadradaWo23.png Graphic file (type png)
 <use RtaCuadradaWo23.png>
-Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 279.
+Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 280.
 (pdftex.def)             Requested size: 350.61597pt x 289.07928pt.
-<MFBP.png, id=85, 387.82515pt x 151.69545pt>
+ [14 <./RtaCuadradaWo13.png (PNG copy)>] [15 <./RtaCuadradaWo21.png (PNG copy)>
+ <./RtaCuadradaWo22.png (PNG copy)>]
+[16 <./RtaCuadradaWo23.png (PNG copy)>]
+<MFBP.png, id=88, 387.82515pt x 151.69545pt>
 File: MFBP.png Graphic file (type png)
 <use MFBP.png>
-Package pdftex.def Info: MFBP.png  used on input line 294.
+Package pdftex.def Info: MFBP.png  used on input line 296.
 (pdftex.def)             Requested size: 349.0394pt x 136.52463pt.
+ [17
 
-[16
+ <./MFBP.png (PNG copy)>] [18
 
- <./RtaCuadradaWo23.png (PNG copy)>] [17 <./MFBP.png (PNG copy)>] [18]
-[19] [20] (./TrabajoPracticoADC.aux) )
+]
+[19]
+<ResultadosPrimerCaso.png, id=99, 224.68098pt x 245.43178pt>
+File: ResultadosPrimerCaso.png Graphic file (type png)
+<use ResultadosPrimerCaso.png>
+Package pdftex.def Info: ResultadosPrimerCaso.png  used on input line 354.
+(pdftex.def)             Requested size: 224.68044pt x 245.43117pt.
+ [20 <./ResultadosPrimerCaso.png (PNG copy)>]
+<ResultadosSegundoCaso.png, id=103, 235.41415pt x 244.71623pt>
+File: ResultadosSegundoCaso.png Graphic file (type png)
+<use ResultadosSegundoCaso.png>
+Package pdftex.def Info: ResultadosSegundoCaso.png  used on input line 371.
+(pdftex.def)             Requested size: 235.41357pt x 244.71562pt.
+
+Overfull \hbox (4.22284pt too wide) in paragraph at lines 375--378
+\OT1/cmr/m/n/10.95 mente. Si sim-u-lamos el cir-cuito con es-tos val-ores en el
+ \OT1/cmr/m/it/10.95 LT-Spice \OT1/cmr/m/n/10.95 obten- 
+ []
+
+[21 <./ResultadosSegundoCaso.png (PNG copy)>]
+<ResultadosTercerCaso.png, id=107, 234.69861pt x 243.28514pt>
+File: ResultadosTercerCaso.png Graphic file (type png)
+<use ResultadosTercerCaso.png>
+Package pdftex.def Info: ResultadosTercerCaso.png  used on input line 386.
+(pdftex.def)             Requested size: 234.69801pt x 243.28455pt.
+ [22 <./ResultadosTercerCaso.png (PNG copy)>] [23] (./TrabajoPracticoADC.aux) )
+
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 15 (\begingroup)
+### semi simple group (level 1) entered at line 16 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3841 strings out of 483140
- 57206 string characters out of 5965151
- 278354 words of memory out of 5000000
- 18805 multiletter control sequences out of 15000+600000
+ 3881 strings out of 483140
+ 58071 string characters out of 5965151
+ 278831 words of memory out of 5000000
+ 18838 multiletter control sequences out of 15000+600000
  546354 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,42p,912b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,42p,1346b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/marcos/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
 ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
@@ -384,10 +417,10 @@ amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TrabajoPracticoADC.pdf (20 pages, 690481 bytes).
+Output written on TrabajoPracticoADC.pdf (23 pages, 763328 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
