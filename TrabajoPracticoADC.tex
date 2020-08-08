@@ -339,7 +339,11 @@ Para esto eligiremos el valor del capacitor C (normalizado) que de mejores resul
 El otro factor a variar junto con el C es el $H_{0}$ del MFBP. Tenemos que para la transferencia $H(s)$ debe suceder que $H_{0} \approx 2$, para lo cual debemos lograr que la multiplicación entre los $H_{0}$ de los filtros MFBP den aproximadamente 2. Si bien hay infinitas combinaciones posibles en la teoría, en la práctica nos vemos limitados por las otras condiciones del sistema. 
 
 \bigskip
-Para encontrar la combinación de componentes que minimizase el error relativo de $W_{o}$ y $Q$ inicialmente se fueron proponiendo valores a los capacitores y ganancias de cada filtro. Tras un extenso análisis resultó evidente que el segundo filtro era muy difícil de aproximar las resistencias normalizadas a los valores ideales de las resistencias calculadas debido a los valores particulares de $W_{0}$ y $Q$ del mismo. Debido a esto se desarrolló un algoritmo que analizase todas las combinaciones de capacitores comerciales entre $1nF$ y $1uF$ posibles para ambos filtros, y para cada combinación variase la ganancia del primer filtro $H_{o_{1}}$ (donde la ganancia del segundo filtro se calcula mediante $H_{0_{2}} = \frac{2}{H_{0_{1}}}$) comenzando por $H_{0_{1}} = 0,01$ hasta $H_{0_{1}} < 70$ con paso $0,01$. Una vez obtenidos los valores normalizados de las resistencias calculadas el algoritmo calcula con ellas el $W_{0}$ y $Q$ y procede a calcular el error relativo de cada uno. Con los cuatro errores relativos obtenidos (porque hay dos filtros) procede a sumarlos para obtener una aproximación del error relativo total, y analiza si este es menor a la anterior mejor combinación obtenida. De esta forma se consigue la mejor combinación de resistencias normalizadas para nuestro circuito.
+Para encontrar la combinación de componentes que minimizase el error relativo de $W_{o}$ y $Q$ inicialmente se fueron proponiendo valores a los capacitores y ganancias de cada filtro. Tras un extenso análisis resultó evidente que el segundo filtro era muy difícil de aproximar las resistencias normalizadas a los valores ideales de las resistencias calculadas debido a los valores particulares de $W_{0}$ y $Q$ del mismo. Debido a esto se desarrolló un algoritmo que analizase todas las combinaciones de capacitores comerciales entre $1nF$ y $1uF$ posibles para ambos filtros, y para cada combinación variase la ganancia del primer filtro $H_{o_{1}}$ (donde la ganancia del segundo filtro se calcula mediante $H_{0_{2}} = \frac{2}{H_{0_{1}}}$) comenzando por $H_{0_{1}} = 0,01$ hasta $H_{0_{1}} < 70$ con paso $0,01$. 
+
+\bigskip
+Una vez obtenidos los valores normalizados de las resistencias calculadas el algoritmo calcula con ellas el $W_{0}$ y $Q$ y procede a calcular el error relativo de cada uno. Con los cuatro errores relativos obtenidos (porque hay dos filtros) procede a sumarlos para obtener una aproximación del error relativo total, y analiza si este es menor a la anterior mejor combinación obtenida. De esta forma se consigue la mejor combinación de resistencias normalizadas para nuestro circuito.
+Es importante recalcar que no se considera el error de $H_{0}$ para el algoritmo ya que este en última instancia podría mejorarse con un filtro plano, la idea es que el algoritmo se enfoque en minimizar el error en $W_{0}$ y $Q$.
 
 \bigskip
 Los resultados obtenidos fueron interesantes. A continuación se presentan los mejores resultados posibles para tres condiciones distintas.
@@ -394,7 +398,7 @@ ahora tenemos un error de aproximadamente $0,2dB$ únicamente, y logramos una ap
 
 \bigskip
 En base a lo expuesto se optó por la última combinación de valores. Para resumir 
-se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, de igual forma se presentan los valores ideales y aproximados de $W_{0}$ y $Q$.
+se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, de igual forma se presentan los valores ideales y aproximados de $W_{0}$, $Q$ y $H_{0}$.
 
 \begin{figure}[h!]
 \centering
@@ -403,6 +407,14 @@ se presenta la siguiente tabla con los valores de los componentes y sus respecti
 \end{figure}
 
 \newpage
-dlkvnlvn
+En base a los valores de $H_{0}$, $W_{0}$ y $Q$ calculados en la tabla obtenemos una función de transferencia tal que
+\[H_{N}(s) \approx -0,128 \cdot \frac{42,55 \cdot s}{s^2 + 42,55 \cdot s + 614,30^2} \cdot (-14,33) \cdot \frac{46,51 \cdot s}{s^2 + 46,51 \cdot s + 656,34^2}\]
+
+Multiplicando ambos factores obtenemos finalmente que
+
+\[H_{N}(s) \approx \frac{3637 \cdot s^2}{(s^2 + 42,55 \cdot s + 614,30^2)
+\cdot (s^2 + 46,51 \cdot s + 656,34^2)}\]
+
+donde $H_{N}(s)$ es la función de transferencia obtenida tras normalizar los componentes.
 
 \end{document}
