@@ -387,7 +387,7 @@ El error relativo total disminuyó aproximadamente $1,7\%$. Logramos conseguir u
 \caption{Tercera simulación}
 \end{figure}
 
-Por último le permitimos al algoritmo hacer uso de una sola resistencia de tolerancia $5\%$ y ver si conseguimos algún tipo de mejora substancial. Afortunadamente conseguimos una mejora considerable de aproximadamente el $3\%$. Lo más importante sin embargo es que logramos bajar considerablemente el promedio de errores relativos, lo que resulta en una mejora mucho mayor a la esperada. Si simulamos el circuito en el \textit{LTSpice} 
+Por último le permitimos al algoritmo hacer uso de una sola resistencia de tolerancia $5\%$ y ver si conseguimos algún tipo de mejora substancial. Afortunadamente conseguimos una mejora considerable de aproximadamente el $3\%$. No sólo eso sino que logramos bajar también considerablemente el promedio de errores relativos, lo que resulta en una mejora mucho mayor a la esperada. Si simulamos el circuito en el \textit{LTSpice} 
 ahora tenemos un error de aproximadamente $0,2dB$ únicamente, y logramos una aproximación de la banda de frecuencias del pasabanda muy cercana al ideal.
 
 \end{list}
@@ -395,34 +395,12 @@ ahora tenemos un error de aproximadamente $0,2dB$ únicamente, y logramos una ap
 \bigskip
 En base a lo expuesto se optó por la última combinación de valores. Para resumir 
 se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, junto con los errores relativos para los $W_{0}$ y $Q$.
-\newpage
-\[H_{0_{1}} = 0,5\]
-\[H_{0_{2}} = 4\]
 
-Volviendo al análisis del primer filtro, se llegó a que el mejor valor posible de C es
-\[C = 47nF\]
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{tablaValores.png}
+\caption{Valores obtenidos para el circuito}
+\end{figure}
 
-obteniendose las siguientes resistencias
-\[R_{1} \approx 994,0497621K\Omega\]
-\[R_{2} \approx 994,0497621K\Omega\]
-\[R_{3} \approx 1,236504032K\Omega\]
-
-Normalizando obtenemos entonces que
-\[R_{1} = 1M\Omega\]
-\[R_{2} = 1M\Omega\]
-\[R_{3} = 1,2K\Omega\]
-
-Para el segundo filtro se llegó a un C tal que
-\[C = 56nF\]
-
-obteniendose las resistencias
-\[R_{1} \approx 775,5193028K\Omega\]
-\[R_{2} \approx 96,93991285K\Omega\]
-\[R_{3} \approx 982,4374972\Omega\]
-
-Normalizando obtenemos
-\[R_{1} = 820K\Omega\]
-\[R_{2} = 100K\Omega\]
-\[R_{3} = 1K\Omega\]
 
 \end{document}
