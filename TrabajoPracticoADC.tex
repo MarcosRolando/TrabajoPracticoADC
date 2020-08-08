@@ -274,14 +274,14 @@ Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0
 \includegraphics[scale=0.95]{RtaCuadradaWo22.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{2}}$}
 \end{figure}
-
+\clearpage
 
 \begin{figure}[ht!]
 \includegraphics[scale=1]{RtaCuadradaWo23.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{2}} \cdot 10$}
 \end{figure}
 
-\clearpage
+
 \section*{Circuito propuesto}
 
 Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFBP) . La elección del MFBP por sobre otro tipo de filtros se debe a la 
@@ -342,8 +342,9 @@ El otro factor a variar junto con el C es el $H_{0}$ del MFBP. Tenemos que para 
 Para encontrar la combinación de componentes que minimizase el error relativo de $W_{o}$ y $Q$ inicialmente se fueron proponiendo valores a los capacitores y ganancias de cada filtro. Tras un extenso análisis resultó evidente que el segundo filtro era muy difícil de aproximar las resistencias normalizadas a los valores ideales de las resistencias calculadas debido a los valores particulares de $W_{0}$ y $Q$ del mismo. Debido a esto se desarrolló un algoritmo que analizase todas las combinaciones de capacitores comerciales entre $1nF$ y $1uF$ posibles para ambos filtros, y para cada combinación variase la ganancia del primer filtro $H_{o_{1}}$ (donde la ganancia del segundo filtro se calcula mediante $H_{0_{2}} = \frac{2}{H_{0_{1}}}$) comenzando por $H_{0_{1}} = 0,01$ hasta $H_{0_{1}} < 70$ con paso $0,01$. Una vez obtenidos los valores normalizados de las resistencias calculadas el algoritmo calcula con ellas el $W_{0}$ y $Q$ y procede a calcular el error relativo de cada uno. Con los cuatro errores relativos obtenidos (porque hay dos filtros) procede a sumarlos para obtener una aproximación del error relativo total, y analiza si este es menor a la anterior mejor combinación obtenida. De esta forma se consigue la mejor combinación de resistencias normalizadas para nuestro circuito.
 
 \bigskip
-Los resultados obtenidos fueron interesantes. A continuación se presentan los mejores resultados posibles para tres condiciones distintas:
+Los resultados obtenidos fueron interesantes. A continuación se presentan los mejores resultados posibles para tres condiciones distintas.
 
+\clearpage
 \begin{list}{•}
 \item Manteniéndose entre resistencias de $1K\Omega$ y $1M\Omega$ utilizando resistencias de tolerancia $10\%$ únicamente
 
@@ -372,8 +373,7 @@ para el $W_{0}$. Si simulamos el circuito en el programa \textit{LTSpice} y graf
 \caption{Segunda simulación}
 \end{figure}
 
-Vemos que para este caso obtenemos una mejora leve con respecto al anterior. 
-El error relativo total disminuyó aproximadamente $1,7\%$. Logramos conseguir una mejor aproximación para el primer filtro sin embargo el segundo filtro aumentó su error de $W_{0}$ considerablemente. Si simulamos el circuito con estos valores en el
+Vemos que para este caso obtenemos una mejora leve con respecto al anterior, disminuyendo el error relativo total aproximadamente $1,7\%$. Logramos conseguir una mejor aproximación para el primer filtro sin embargo el segundo filtro aumentó su error de $W_{0}$ considerablemente. Si simulamos el circuito con estos valores en el
 \textit{LTSpice} obtenemos un error aproximado de $6dB$ lo cual es más error que en nuestra anterior simulación (esto se debe a que la suma de errores relativos es tan sólo una estimación del error real, y por otro lado solo estamos analizando el error en dB y no en la banda de frecuencias). Veremos que sucede con el último análisis.
 
 \newpage
@@ -394,7 +394,7 @@ ahora tenemos un error de aproximadamente $0,2dB$ únicamente, y logramos una ap
 
 \bigskip
 En base a lo expuesto se optó por la última combinación de valores. Para resumir 
-se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, junto con los errores relativos para los $W_{0}$ y $Q$.
+se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, de igual forma se presentan los valores ideales y aproximados de $W_{0}$ y $Q$.
 
 \begin{figure}[h!]
 \centering
@@ -402,5 +402,7 @@ se presenta la siguiente tabla con los valores de los componentes y sus respecti
 \caption{Valores obtenidos para el circuito}
 \end{figure}
 
+\newpage
+dlkvnlvn
 
 \end{document}
