@@ -408,18 +408,18 @@ se presenta la siguiente tabla con los valores de los componentes y sus respecti
 
 \newpage
 En base a los valores de $H_{0}$, $W_{0}$ y $Q$ calculados en la tabla obtenemos una función de transferencia tal que
-\[H_{N}(s) \approx -0,128 \cdot \frac{42,55 \cdot s}{s^2 + 42,55 \cdot s + 614,30^2} \cdot (-14,33) \cdot \frac{46,51 \cdot s}{s^2 + 46,51 \cdot s + 656,34^2}\]
+\[H_{n}(s) \approx \frac{(-0,128) \cdot 42,55 \cdot s}{s^2 + 42,55 \cdot s + 614,30^2} \cdot \frac{(-14,33) \cdot 46,51 \cdot s}{s^2 + 46,51 \cdot s + 656,34^2}\]
 
 Multiplicando ambos factores obtenemos finalmente que
 
-\[H_{N}(s) \approx \frac{3637 \cdot s^2}{(s^2 + 42,55 \cdot s + 614,30^2)
+\[H_{n}(s) \approx \frac{3637 \cdot s^2}{(s^2 + 42,55 \cdot s + 614,30^2)
 \cdot (s^2 + 46,51 \cdot s + 656,34^2)}\]
 
-donde $H_{N}(s)$ es la función de transferencia obtenida tras normalizar los componentes.
+donde $H_{n}(s)$ es la función de transferencia obtenida tras normalizar los componentes.
 
 \section*{Diagramas de $H_{N}(s)$}
 
-A continuación se presentan los diagramas de Bode y la respuesta al escalón de $H_{N}(s)$. Se mostrarán primero los gráficos por separado para poder apreciarlo mejor, y luego se superpondrán con los correspondientes a $H(s)$ para tener una idea de la precisión de la misma.
+A continuación se presentan los diagramas de Bode y la respuesta al escalón de $H_{n}(s)$. Se mostrarán primero los gráficos por separado para \\poder apreciarlo mejor, y luego se superpondrán con los correspondientes a $H(s)$ para tener una idea de la precisión de la misma.
 
 \subsection*{Diagramas de Bode}
 
@@ -441,9 +441,36 @@ Vemos que a gran escala ambos gráficos prácticamente se superponen. Para aprec
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{DiagramasBodeCloseComp.png}
-\caption{Diagramas de bode de $H_{n}(s)$ (naranja) y $H(s)$ (azul)}
+\caption{Diagramas de bode de $H_{n}(s)$ (azul) y $H(s)$ (naranja)}
 \end{figure}
 
 Vemos que el error es aproximadamente $1dB$ (un poco menor). También podemos observar un ligero error en las frecuencias, esperable si consideramos que $W_{0_{1}} \approx 607,3\frac{r}{s}$ y nosotros obtuvimos un valor $W_{0_{1}} \approx 614,30\frac{r}{s}$ cuando normalizamos (lo mismo para $W_{0_{2}}$).
+
+\subsection*{Respuesta al escalón}
+
+\vspace{10 mm}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{RtaEscalonN.png}
+\caption{Respuesta al escalón de $H_{n}(s)$}
+\end{figure}
+\clearpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{RtaEscalonComp.png}
+\caption{Respuesta al escalón de $H_{n}(s)$ y $H(s)$}
+\end{figure}
+
+Nuevamente ambos gráficos son muy parecidos, si bien aquí es más sencillo ver las
+diferencias. A continuación se muestra un gráfico que magnifica la zona donde $t \approx 0,15s$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.48]{RtaEscalonCloseComp.png}
+\caption{Respuesta al escalón de $H_{n}(s)$ y $H(s)$}
+\end{figure}
+
 
 \end{document}
