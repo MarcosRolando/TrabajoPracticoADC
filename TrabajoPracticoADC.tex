@@ -417,4 +417,33 @@ Multiplicando ambos factores obtenemos finalmente que
 
 donde $H_{N}(s)$ es la función de transferencia obtenida tras normalizar los componentes.
 
+\section*{Diagramas de $H_{N}(s)$}
+
+A continuación se presentan los diagramas de Bode y la respuesta al escalón de $H_{N}(s)$. Se mostrarán primero los gráficos por separado para poder apreciarlo mejor, y luego se superpondrán con los correspondientes a $H(s)$ para tener una idea de la precisión de la misma.
+
+\subsection*{Diagramas de Bode}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{DiagramasBodeN.png}
+\caption{Diagramas de bode de $H_{n}(s)$}
+\end{figure}
+\clearpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{DiagramasBodeComp.png}
+\caption{Diagramas de bode de $H_{n}(s)$ y $H(s)$}
+\end{figure}
+
+Vemos que a gran escala ambos gráficos prácticamente se superponen. Para apreciar la diferencia podemos magnificar la banda de frecuencias donde la ganancia es aproximadamente $0dB$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{DiagramasBodeCloseComp.png}
+\caption{Diagramas de bode de $H_{n}(s)$ (naranja) y $H(s)$ (azul)}
+\end{figure}
+
+Vemos que el error es aproximadamente $1dB$ (un poco menor). También podemos observar un ligero error en las frecuencias, esperable si consideramos que $W_{0_{1}} \approx 607,3\frac{r}{s}$ y nosotros obtuvimos un valor $W_{0_{1}} \approx 614,30\frac{r}{s}$ cuando normalizamos (lo mismo para $W_{0_{2}}$).
+
 \end{document}
