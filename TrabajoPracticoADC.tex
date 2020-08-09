@@ -400,7 +400,7 @@ ahora tenemos un error de aproximadamente $0,2dB$ únicamente, y logramos una ap
 En base a lo expuesto se optó por la última combinación de valores. Para resumir 
 se presenta la siguiente tabla con los valores de los componentes y sus respectivos errores relativos, de igual forma se presentan los valores ideales y aproximados de $W_{0}$, $Q$ y $H_{0}$.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{tablaValores.png}
 \caption{Valores obtenidos para el circuito}
@@ -471,6 +471,24 @@ diferencias. A continuación se muestra un gráfico que magnifica la zona donde 
 \includegraphics[scale=0.48]{RtaEscalonCloseComp.png}
 \caption{Respuesta al escalón de $H_{n}(s)$ y $H(s)$}
 \end{figure}
+
+\section*{Simulación con \textit{LTSpice}}
+
+Habiendo normalizado los valores de los componentes del circuito para conseguir la
+transferencia asignada procederemos a simular el mismo mediante el programa \textit{LTSpice}. Para esto se mostrarán primero los diagramas obtenidos para las
+distintas simulaciones individualmente y luego comparando con los diagramas de la
+transferencia original. Finalmente se compararan todos los diagramas juntos (la función $H(s)$, la función $H_{n}(s)$ y los generados por \textit{LTSpice}).
+
+\bigskip
+Antes de proceder a mostrar los gráficos obtenidos, se presenta un esquema del circuito utilizado en el \textit{LTSpice}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{Circuito.png}
+\caption{Circuito propuesto para la transferencia asignada}
+\end{figure}
+
+\subsection*{Diagramas de Bode}
 
 
 \end{document}
