@@ -201,10 +201,10 @@ tenemos el efecto de batido para $t = 0,15s$ lo cual es esperable dado que la de
 
 \begin{figure}[h!]
 \includegraphics[scale=0.96]{RtaSenoidalBajo.png}
-\caption{Respuesta a la senoidal de frecuencia $w = 1\frac{r}{s}$}
+\caption{Respuesta a la senoidal de frecuencia $w = 20\frac{r}{s}$}
 \end{figure}
 
-Para una señal senoidal de frecuencia $w = 1\frac{r}{s}$ y $1V$ de amplitud vemos que la respuesta es prácticamente nula (tenemos una amplitud de salida de aproximadamente $1,3mV$, un $0,13\%$ de la señal de entrada) coincidiendo con el comportamiento esperado del filtro dado que es un pasabanda. 
+Para una señal senoidal de frecuencia $w = 20\frac{r}{s}$ y $1V$ de amplitud vemos que se repite la forma de la respuesta al escalón para la las primeras décimas de segundo (componente transitoria) para finalmente tender a cero en el estado permanente, coincidiendo con el comportamiento esperado del filtro dado que es un pasabanda y por lo tanto tenderá a anular las señales de baja frecuencia.
 
 \newpage
 \begin{figure}[h!]
@@ -223,10 +223,8 @@ $W_{0_{2}} \approx 650,2 \frac{r}{s}$) y vimos en el diagrama de Bode que para l
 \caption{Respuesta a la senoidal de frecuencia $w = 5000\frac{r}{s}$}
 \end{figure}
 
-Por último tenemos que para una señal senoidal de frecuencia $w = 5000\frac{r}{s}$ y amplitud $1V$ la respuesta de nuestro sistema se ve muy atenuada al igual que para
-el análisis de las bajas frecuencias (como vimos previamente para la señal senoidal de frecuencia $w = 1\frac{r}{s}$). Vemos que inicialmente presenta una respuesta parecida a la del escalón para su estado transitorio, y una vez alcanzado el estado
-estacionario la respuesta es de forma senoidal (como es esperable). La atenuación de la señal senoidal coindice con el hecho de que nuestro filtro es un pasabanda y
-por lo tanto anulará las señales de altas frecuencias.
+Por último tenemos que para una señal senoidal de frecuencia $w = 5000\frac{r}{s}$ y amplitud $1V$ se presenta una respuesta similar a la de baja frecuencia, donde la respuesta de nuestro sistema se ve muy atenuada(como vimos previamente para la señal senoidal de frecuencia $w = 20\frac{r}{s}$). Vemos que inicialmente presenta una respuesta parecida a la del escalón para su estado transitorio, y una vez alcanzado el estado
+estacionario la respuesta es de forma senoidal con amplitud tendiendo a cero (como es esperable, mientras más aumentemos la frecuencia dicha amplitud tenderá más aún a cero). La atenuación de la señal senoidal coindice con el hecho de que nuestro filtro es un pasabanda y por lo tanto anulará las señales de altas frecuencias.
 
 \newpage
 \subsubsection*{Respuesta a la cuadrada}
