@@ -15,6 +15,7 @@
 \begin{document}
 \spacing{1.25}
 
+
 \section*{Análisis general de la función de transferencia}
 
 \subsection*{Tipo de filtro}
@@ -511,5 +512,19 @@ Antes de proceder a mostrar los gráficos obtenidos, se presenta un esquema del 
 \caption{Comparación entre H(s) y \textit{LTSpice} de la fase}
 \end{figure}
 
+\subsection*{Respuesta al escalón}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{rtaEscalonSpice.png}
+\caption{Respuesta al escalón de \textit{LTSpice}}
+\vspace{2 mm}
+\includegraphics[scale=0.85]{rtaEscalonSpiceComp.png}
+\caption{Comparación de la respuesta al escalón entre \textit{LTSpice} y H(s)}
+\end{figure}
+
+\subsection*{Respuesta a senoidales}
+
+Las frecuencias $W_{0}$ utilizadas para las señales senoidales serán las mismas que para el el inciso \textbf{Respuesta a senoidales} de la sección \textbf{Respuesta gráfica del sistema a distintas señales}.
 
 \end{document}
