@@ -229,7 +229,7 @@ estacionario la respuesta es de forma senoidal con amplitud tendiendo a cero (co
 \newpage
 \subsubsection*{Respuesta a la cuadrada}
 
-Esta sección se dividirá en dos subsecciones, en la primera analizaremos las cuadradas de frecuencias relacionadas con la de $W_{0_{1}} \approx 607,3 \frac{r}{s}$ y en la siguiente para las cuadradas de frecuencias relacionadas a $W_{0_{2}}$. Recordemos que $f = \frac{W}{2 \cdot \pi}$
+Esta sección se dividirá en dos subsecciones, en la primera analizaremos las cuadradas de frecuencias relacionadas con la de $W_{0_{1}} \approx 607,3 \frac{r}{s}$ y en la siguiente para las cuadradas de frecuencias relacionadas a $W_{0_{2}} \approx 607,3 \frac{r}{s}$. Recordemos que $f = \frac{W}{2 \cdot \pi}$.
 
 \subsubsection*{Frecuencia $f_{0_{1}}$}
 
@@ -561,5 +561,31 @@ El siguiente gráfico magnifica la respuesta a la señal senoidal de frecuencia 
 \end{figure}
 
 Vemos que hay una diferencia de amplitud y un desfase, esperable considerando la normalización de los componentes. Hay que considerar también que a medida que vamos avanzando hacia frecuencias altas o bajas nuestra respuesta tiende más a cero y las simulaciones son más propensas a tener errores de aproximación (como vimos para el caso de frecuencias bajas en \textit{Octave}).
+
+\subsection*{Respuesta a la cuadrada}
+
+Al igual que como hicimos para el ítem \textbf{Respuesta a la cuadrada} de la sección \textbf{Respuesta gráfica del sistema a distintas señales}, esta sección se dividirá en dos subsecciones, en la primera analizaremos las cuadradas de frecuencias relacionadas con la de $W_{0_{1}} \approx 607,3 \frac{r}{s}$ y en la siguiente para las cuadradas de frecuencias relacionadas a $W_{0_{2}} \approx 650,2 \frac{r}{s}$. Recordemos que $f = \frac{W}{2 \cdot \pi}$.
+
+\subsubsection*{Frecuencia $f_{0_{1}}$}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{rtaCuadradaBaja1Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $\frac{f_{0_{1}}}{10}$ de \textit{LTSpice}}
+\includegraphics[scale=0.8]{rtaCuadradaBaja1SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+\newpage 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{rtaCuadradaMedio1Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $f_{0_{1}}$ de \textit{LTSpice}}
+\includegraphics[scale=0.8]{rtaCuadradaMedio1SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+
+Para la respuesta a la cuadrada de frecuencia $f_{0} = f_{0_{1}}$ tenemos un error de tensión aproximado de $0,05V$, donde la tensión del circuito normalizado simulado por \textit{LTSpice} es menor a la de $H(s)$. Esto es prevesible ya que la frecuencia angular ideal es $W_{0_{1}} \approx 607,3\frac{r}{s}$ mientras que la normalizada (que es la que simula \textit{LTSpice}) es $W_{0} \approx 614,3\frac{r}{s}$ por lo tanto tendremos menos ganancia para el normalizado y consecuentemente menos tensión, que es lo observado.
+\newpage
 
 \end{document}
