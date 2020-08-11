@@ -587,6 +587,13 @@ Al igual que como hicimos para el ítem \textbf{Respuesta a la cuadrada} de la s
 \end{figure}
 
 Para la respuesta a la cuadrada de frecuencia $f_{0} = f_{0_{1}}$ tenemos un error de tensión aproximado de $0,05V$, donde la tensión del circuito normalizado simulado por \textit{LTSpice} es menor a la de $H(s)$. Esto es prevesible ya que la frecuencia angular ideal es $W_{0_{1}} \approx 607,3\frac{r}{s}$ mientras que la normalizada (que es la que simula \textit{LTSpice}) es $W_{0} \approx 614,3\frac{r}{s}$ por lo tanto tendremos menos ganancia para el normalizado y consecuentemente menos tensión, que es lo observado.
-\newpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.85]{rtaCuadradaAlto1Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $10 \cdot f_{0_{1}}$ de \textit{LTSpice}}
+\includegraphics[scale=0.8]{rtaCuadradaAlto1SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
 
 \end{document}
