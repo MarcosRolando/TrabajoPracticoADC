@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  10 AUG 2020 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  11 AUG 2020 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,56 +491,64 @@ File: rtaSenoidalBajoComp.png Graphic file (type png)
 Package pdftex.def Info: rtaSenoidalBajoComp.png  used on input line 548.
 (pdftex.def)             Requested size: 348.27141pt x 275.45728pt.
  [34 <./rtaSenoidalBajoComp.png (PNG copy)>]
-<rtaSenoidalMedioSpice.png, id=174, 352.76346pt x 289.79555pt>
+<rtaSenoidalBajoSpiceMatlab.jpeg, id=174, 509.905pt x 422.57875pt>
+File: rtaSenoidalBajoSpiceMatlab.jpeg Graphic file (type jpg)
+<use rtaSenoidalBajoSpiceMatlab.jpeg>
+Package pdftex.def Info: rtaSenoidalBajoSpiceMatlab.jpeg  used on input line 56
+2.
+(pdftex.def)             Requested size: 305.94536pt x 253.5492pt.
+ [35 <./rtaSenoidalBajoSpiceMatlab.jpeg>]
+<rtaSenoidalMedioSpice.png, id=178, 352.76346pt x 289.79555pt>
 File: rtaSenoidalMedioSpice.png Graphic file (type png)
 <use rtaSenoidalMedioSpice.png>
-Package pdftex.def Info: rtaSenoidalMedioSpice.png  used on input line 560.
+Package pdftex.def Info: rtaSenoidalMedioSpice.png  used on input line 576.
 (pdftex.def)             Requested size: 352.76259pt x 289.79483pt.
-<rtaSenoidalMedioSpiceComp.png, id=175, 352.04793pt x 289.08pt>
+<rtaSenoidalMedioSpiceComp.png, id=179, 352.04793pt x 289.08pt>
 File: rtaSenoidalMedioSpiceComp.png Graphic file (type png)
 <use rtaSenoidalMedioSpiceComp.png>
-Package pdftex.def Info: rtaSenoidalMedioSpiceComp.png  used on input line 562.
+Package pdftex.def Info: rtaSenoidalMedioSpiceComp.png  used on input line 578.
 
 (pdftex.def)             Requested size: 337.96753pt x 277.51805pt.
 
 
-LaTeX Warning: Float too large for page by 16.51262pt on input line 564.
+LaTeX Warning: Float too large for page by 16.51262pt on input line 580.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<rtaSenoidalAltoSpice.png, id=176, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpice.png, id=180, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpice.png Graphic file (type png)
 <use rtaSenoidalAltoSpice.png>
-Package pdftex.def Info: rtaSenoidalAltoSpice.png  used on input line 569.
+Package pdftex.def Info: rtaSenoidalAltoSpice.png  used on input line 585.
 (pdftex.def)             Requested size: 359.91801pt x 288.36374pt.
-<rtaSenoidalAltoSpiceComp.png, id=177, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpiceComp.png, id=181, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpiceComp.png Graphic file (type png)
 <use rtaSenoidalAltoSpiceComp.png>
-Package pdftex.def Info: rtaSenoidalAltoSpiceComp.png  used on input line 571.
+Package pdftex.def Info: rtaSenoidalAltoSpiceComp.png  used on input line 587.
 (pdftex.def)             Requested size: 345.5237pt x 276.83112pt.
 
-LaTeX Warning: Float too large for page by 14.39459pt on input line 573.
+LaTeX Warning: Float too large for page by 14.39459pt on input line 589.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35 <./rtaSenoidalMedioSpice.png (PNG copy)> <./rtaSenoidalMedioSpiceComp.png (
-PNG copy)>] [36 <./rtaSenoidalAltoSpice.png (PNG copy)> <./rtaSenoidalAltoSpice
+[36 <./rtaSenoidalMedioSpice.png (PNG copy)> <./rtaSenoidalMedioSpiceComp.png (
+PNG copy)>] [37 <./rtaSenoidalAltoSpice.png (PNG copy)> <./rtaSenoidalAltoSpice
 Comp.png (PNG copy)>]
-<rtaSenoidalAltoSpiceCloseComp.png, id=184, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpiceCloseComp.png, id=189, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpiceCloseComp.png Graphic file (type png)
 <use rtaSenoidalAltoSpiceCloseComp.png>
 Package pdftex.def Info: rtaSenoidalAltoSpiceCloseComp.png  used on input line 
-580.
+596.
 (pdftex.def)             Requested size: 345.5237pt x 276.83112pt.
 
-Overfull \hbox (6.27782pt too wide) in paragraph at lines 584--585
+Overfull \hbox (6.27782pt too wide) in paragraph at lines 600--601
 \OT1/cmr/m/n/10.95 siderando la nor-mal-izaci^^Son de los com-po-nentes. Hay qu
 e con-sid-erar tambi^^Sen 
  []
 
-[37
+[38
+
 
  <./rtaSenoidalAltoSpiceCloseComp.png (PNG copy)>] (./TrabajoPracticoADC.aux) )
 
@@ -549,10 +557,10 @@ e con-sid-erar tambi^^Sen
 ### semi simple group (level 1) entered at line 16 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4023 strings out of 483140
- 61579 string characters out of 5965151
+ 4030 strings out of 483140
+ 61788 string characters out of 5965151
  277831 words of memory out of 5000000
- 18956 multiletter control sequences out of 15000+600000
+ 18961 multiletter control sequences out of 15000+600000
  548647 words of font info for 84 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,8n,42p,912b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -574,10 +582,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TrabajoPracticoADC.pdf (37 pages, 1439571 bytes).
+Output written on TrabajoPracticoADC.pdf (38 pages, 1485423 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -552,7 +552,23 @@ Vemos que la comparación es sorprendentemente distinta para la primer décima d
 Podemos observar que estos gráficos comparten la misma forma difiriendo, lógicamente, en un error de amplitud. Debido a que las anteriores comparaciones entre \textit{LTSpice} y \textit{Octave} daban similares y que \textit{Octave} gráfica la misma forma tanto para $H_{n}(s)$ como para $H(s)$ es probable que esta diferencia entre lo mostrado por ambos programas se deba a una pobre aproximación de \textit{Octave} para este caso (ver además que la respuesta es demasiado triangular, mientras que para \textit{LTSpice} la respuesta presenta una forma mucho mas semejante a una senoidal lo cual es lo que esperaríamos observar).
 
 \bigskip
-Habiendo analizado esta anomalidad procederemos al siguiente respuesta a señal senoidal
+\textbf{Nota:} posteriormente se logró simular en \textit{MATLAB} la respuesta
+a la misma señal senoidal y los resultados que se obtuvieron coinciden con los
+del \textit{LTSpice}, confirmando la suposición de que el culpable era \textit{Octave}. El siguiente gráfico muestra el resultado obtenido en \textit{MATLAB} comparado con el de \textit{LTSpice}.
+\newpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{rtaSenoidalBajoSpiceMatlab.jpeg}
+\caption{Comparación de la respuesta para H(s) vs $H_{n}(s)$ de \textit{MATLAB}}
+\end{figure}
+\afterpage{\clearpage}
+
+\bigskip
+Vemos que la forma obtenida por \textit{MATLAB} es similar a la de \textit{LTSpice}. Podemos observar considerable error en el intervalo de tiempo entre $t \approx 0,1s$ y $t \approx 0,15s$ para la tensión, esto puede deberse simplemente a \\errores de aproximación de cuentas en el programa o al error que acarrea el circuito normalizado contra el ideal. Sin embargo, debido a que la forma es muy similar para el resto del tiempo y a que en la sección donde difiere considerablemente podemos ver que la respuesta generada por \textit{MATLAB} es notablemente triangular, es más probable que se deba a errores más gruesos de aproximación, aunque esto solo una suposición.
+
+\bigskip
+Habiendo analizado esta anomalidad procederemos a la siguiente respuesta a señal senoidal.
 \newpage 
 
 \begin{figure}[h!]
