@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  11 AUG 2020 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  11 AUG 2020 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,245 +333,239 @@ File: RtaCuadradaWo12.png Graphic file (type png)
 <use RtaCuadradaWo12.png>
 Package pdftex.def Info: RtaCuadradaWo12.png  used on input line 249.
 (pdftex.def)             Requested size: 350.61597pt x 286.2171pt.
-[12 <./RtaCuadradaWo11.png (PNG copy)>]
-<RtaCuadradaWo13.png, id=71, 351.33238pt x 287.64891pt>
+[12 <./RtaCuadradaWo11.png (PNG copy)>] [13 <./RtaCuadradaWo12.png (PNG copy)>]
+<RtaCuadradaWo13.png, id=75, 354.9101pt x 290.5111pt>
 File: RtaCuadradaWo13.png Graphic file (type png)
 <use RtaCuadradaWo13.png>
-Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 259.
-(pdftex.def)             Requested size: 351.33151pt x 287.64821pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13 <./RtaCuadradaWo12.png (PNG copy)>]
-<RtaCuadradaWo21.png, id=76, 366.35881pt x 287.64891pt>
+Package pdftex.def Info: RtaCuadradaWo13.png  used on input line 260.
+(pdftex.def)             Requested size: 354.90923pt x 290.51038pt.
+[14 <./RtaCuadradaWo13.png (PNG copy)>]
+<RtaCuadradaWo21.png, id=79, 366.35881pt x 287.64891pt>
 File: RtaCuadradaWo21.png Graphic file (type png)
 <use RtaCuadradaWo21.png>
-Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 270.
+Package pdftex.def Info: RtaCuadradaWo21.png  used on input line 271.
 (pdftex.def)             Requested size: 348.0389pt x 273.26491pt.
-<RtaCuadradaWo22.png, id=77, 347.75465pt x 287.64891pt>
+<RtaCuadradaWo22.png, id=80, 347.75465pt x 287.64891pt>
 File: RtaCuadradaWo22.png Graphic file (type png)
 <use RtaCuadradaWo22.png>
-Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 272.
+Package pdftex.def Info: RtaCuadradaWo22.png  used on input line 273.
 (pdftex.def)             Requested size: 330.36504pt x 273.26491pt.
- [14 <./RtaCuadradaWo13.png (PNG copy)>] [15 <./RtaCuadradaWo21.png (PNG copy)>
- <./RtaCuadradaWo22.png (PNG copy)>]
-<RtaCuadradaWo23.png, id=84, 350.61684pt x 289.08pt>
+ [15] [16 <./RtaCuadradaWo21.png (PNG copy)> <./RtaCuadradaWo22.png (PNG copy)>
+]
+<RtaCuadradaWo23.png, id=87, 354.9101pt x 290.5111pt>
 File: RtaCuadradaWo23.png Graphic file (type png)
 <use RtaCuadradaWo23.png>
-Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 278.
-(pdftex.def)             Requested size: 350.61597pt x 289.07928pt.
-<MFBP.png, id=85, 387.82515pt x 151.69545pt>
+Package pdftex.def Info: RtaCuadradaWo23.png  used on input line 279.
+(pdftex.def)             Requested size: 354.90923pt x 290.51038pt.
+<MFBP.png, id=88, 387.82515pt x 151.69545pt>
 File: MFBP.png Graphic file (type png)
 <use MFBP.png>
-Package pdftex.def Info: MFBP.png  used on input line 294.
+Package pdftex.def Info: MFBP.png  used on input line 295.
 (pdftex.def)             Requested size: 349.0394pt x 136.52463pt.
+ [17
 
-[16
+ <./RtaCuadradaWo23.png (PNG copy)>] [18 <./MFBP.png (PNG copy)>] [19
 
- <./RtaCuadradaWo23.png (PNG copy)>] [17 <./MFBP.png (PNG copy)>] [18
-
-]
-[19]
-<ResultadosPrimerCaso.png, id=99, 224.68098pt x 245.43178pt>
+] [20]
+<ResultadosPrimerCaso.png, id=102, 224.68098pt x 245.43178pt>
 File: ResultadosPrimerCaso.png Graphic file (type png)
 <use ResultadosPrimerCaso.png>
-Package pdftex.def Info: ResultadosPrimerCaso.png  used on input line 357.
+Package pdftex.def Info: ResultadosPrimerCaso.png  used on input line 358.
 (pdftex.def)             Requested size: 224.68044pt x 245.43117pt.
- [20
+ [21
 
  <./ResultadosPrimerCaso.png (PNG copy)>]
-<ResultadosSegundoCaso.png, id=103, 235.41415pt x 244.71623pt>
+<ResultadosSegundoCaso.png, id=106, 235.41415pt x 244.71623pt>
 File: ResultadosSegundoCaso.png Graphic file (type png)
 <use ResultadosSegundoCaso.png>
-Package pdftex.def Info: ResultadosSegundoCaso.png  used on input line 374.
+Package pdftex.def Info: ResultadosSegundoCaso.png  used on input line 375.
 (pdftex.def)             Requested size: 235.41357pt x 244.71562pt.
- [21 <./ResultadosSegundoCaso.png (PNG copy)>]
-<ResultadosTercerCaso.png, id=107, 226.82762pt x 246.14732pt>
+ [22 <./ResultadosSegundoCaso.png (PNG copy)>]
+<ResultadosTercerCaso.png, id=110, 226.82762pt x 246.14732pt>
 File: ResultadosTercerCaso.png Graphic file (type png)
 <use ResultadosTercerCaso.png>
-Package pdftex.def Info: ResultadosTercerCaso.png  used on input line 388.
+Package pdftex.def Info: ResultadosTercerCaso.png  used on input line 389.
 (pdftex.def)             Requested size: 226.82706pt x 246.14671pt.
-<tablaValores.png, id=108, 315.55515pt x 467.2506pt>
+<tablaValores.png, id=111, 315.55515pt x 467.2506pt>
 File: tablaValores.png Graphic file (type png)
 <use tablaValores.png>
-Package pdftex.def Info: tablaValores.png  used on input line 403.
+Package pdftex.def Info: tablaValores.png  used on input line 404.
 (pdftex.def)             Requested size: 315.55435pt x 467.24945pt.
- [22 <./ResultadosTercerCaso.png (PNG copy)>] [23 <./tablaValores.png (PNG copy
+ [23 <./ResultadosTercerCaso.png (PNG copy)>] [24 <./tablaValores.png (PNG copy
 )>]
-<DiagramasBodeN.png, id=115, 489.83pt x 408.52625pt>
+<DiagramasBodeN.png, id=118, 489.83pt x 408.52625pt>
 File: DiagramasBodeN.png Graphic file (type png)
 <use DiagramasBodeN.png>
-Package pdftex.def Info: DiagramasBodeN.png  used on input line 426.
+Package pdftex.def Info: DiagramasBodeN.png  used on input line 427.
 (pdftex.def)             Requested size: 342.87866pt x 285.96642pt.
- [24 <./DiagramasBodeN.png>]
-<DiagramasBodeComp.png, id=121, 495.8525pt x 406.51875pt>
+ [25 <./DiagramasBodeN.png>]
+<DiagramasBodeComp.png, id=125, 495.8525pt x 406.51875pt>
 File: DiagramasBodeComp.png Graphic file (type png)
 <use DiagramasBodeComp.png>
-Package pdftex.def Info: DiagramasBodeComp.png  used on input line 433.
+Package pdftex.def Info: DiagramasBodeComp.png  used on input line 434.
 (pdftex.def)             Requested size: 347.09438pt x 284.56117pt.
-<DiagramasBodeCloseComp.png, id=122, 480.79625pt x 177.66376pt>
+<DiagramasBodeCloseComp.png, id=126, 480.79625pt x 177.66376pt>
 File: DiagramasBodeCloseComp.png Graphic file (type png)
 <use DiagramasBodeCloseComp.png>
-Package pdftex.def Info: DiagramasBodeCloseComp.png  used on input line 441.
+Package pdftex.def Info: DiagramasBodeCloseComp.png  used on input line 442.
 (pdftex.def)             Requested size: 336.55507pt x 124.36377pt.
- [25
+ [26
 
  <./DiagramasBodeComp.png> <./DiagramasBodeCloseComp.png>]
-<RtaEscalonN.png, id=129, 476.78125pt x 404.51125pt>
+<RtaEscalonN.png, id=132, 476.78125pt x 404.51125pt>
 File: RtaEscalonN.png Graphic file (type png)
 <use RtaEscalonN.png>
-Package pdftex.def Info: RtaEscalonN.png  used on input line 453.
+Package pdftex.def Info: RtaEscalonN.png  used on input line 454.
 (pdftex.def)             Requested size: 333.74458pt x 283.15593pt.
- [26 <./RtaEscalonN.png>]
-<RtaEscalonComp.png, id=134, 489.83pt x 402.50375pt>
+ [27 <./RtaEscalonN.png>]
+<RtaEscalonComp.png, id=137, 489.83pt x 402.50375pt>
 File: RtaEscalonComp.png Graphic file (type png)
 <use RtaEscalonComp.png>
-Package pdftex.def Info: RtaEscalonComp.png  used on input line 460.
+Package pdftex.def Info: RtaEscalonComp.png  used on input line 461.
 (pdftex.def)             Requested size: 342.87866pt x 281.7507pt.
-<RtaEscalonCloseComp.png, id=135, 494.84875pt x 401.5pt>
+<RtaEscalonCloseComp.png, id=138, 494.84875pt x 401.5pt>
 File: RtaEscalonCloseComp.png Graphic file (type png)
 <use RtaEscalonCloseComp.png>
-Package pdftex.def Info: RtaEscalonCloseComp.png  used on input line 469.
+Package pdftex.def Info: RtaEscalonCloseComp.png  used on input line 470.
 (pdftex.def)             Requested size: 237.5247pt x 192.7178pt.
- [27
+ [28
 
  <./RtaEscalonComp.png> <./RtaEscalonCloseComp.png>]
-<Circuito.png, id=141, 394.26505pt x 167.43742pt>
+<Circuito.png, id=144, 394.26505pt x 167.43742pt>
 File: Circuito.png Graphic file (type png)
 <use Circuito.png>
-Package pdftex.def Info: Circuito.png  used on input line 487.
+Package pdftex.def Info: Circuito.png  used on input line 488.
 (pdftex.def)             Requested size: 394.26408pt x 167.437pt.
 
-Overfull \hbox (34.26408pt too wide) in paragraph at lines 487--488
+Overfull \hbox (34.26408pt too wide) in paragraph at lines 488--489
  [][] 
  []
 
-[28 <./Circuito.png (PNG copy)>]
-<MagnitudBodeSpice.png, id=146, 359.91891pt x 291.22664pt>
+[29 <./Circuito.png (PNG copy)>]
+<MagnitudBodeSpice.png, id=149, 359.91891pt x 291.22664pt>
 File: MagnitudBodeSpice.png Graphic file (type png)
 <use MagnitudBodeSpice.png>
-Package pdftex.def Info: MagnitudBodeSpice.png  used on input line 496.
+Package pdftex.def Info: MagnitudBodeSpice.png  used on input line 497.
 (pdftex.def)             Requested size: 323.92401pt x 262.10155pt.
-<PhaseBodeSpice.png, id=147, 357.77228pt x 291.94218pt>
+<PhaseBodeSpice.png, id=150, 357.77228pt x 291.94218pt>
 File: PhaseBodeSpice.png Graphic file (type png)
 <use PhaseBodeSpice.png>
-Package pdftex.def Info: PhaseBodeSpice.png  used on input line 499.
+Package pdftex.def Info: PhaseBodeSpice.png  used on input line 500.
 (pdftex.def)             Requested size: 304.10786pt x 248.15202pt.
-<MagnitudBodeSpiceComp.png, id=148, 354.19455pt x 289.79555pt>
+<MagnitudBodeSpiceComp.png, id=151, 354.19455pt x 289.79555pt>
 File: MagnitudBodeSpiceComp.png Graphic file (type png)
 <use MagnitudBodeSpiceComp.png>
-Package pdftex.def Info: MagnitudBodeSpiceComp.png  used on input line 505.
+Package pdftex.def Info: MagnitudBodeSpiceComp.png  used on input line 506.
 (pdftex.def)             Requested size: 318.77214pt x 260.81357pt.
-<PhaseBodeSpiceComp.png, id=149, 354.19455pt x 289.79555pt>
+<PhaseBodeSpiceComp.png, id=152, 354.19455pt x 289.79555pt>
 File: PhaseBodeSpiceComp.png Graphic file (type png)
 <use PhaseBodeSpiceComp.png>
-Package pdftex.def Info: PhaseBodeSpiceComp.png  used on input line 508.
+Package pdftex.def Info: PhaseBodeSpiceComp.png  used on input line 509.
 (pdftex.def)             Requested size: 301.06679pt x 246.32736pt.
- [29 <./MagnitudBodeSpice.png (PNG copy)> <./PhaseBodeSpice.png (PNG copy)>]
-<rtaEscalonSpice.png, id=153, 354.19455pt x 289.79555pt>
+ [30 <./MagnitudBodeSpice.png (PNG copy)> <./PhaseBodeSpice.png (PNG copy)>]
+<rtaEscalonSpice.png, id=156, 354.19455pt x 289.79555pt>
 File: rtaEscalonSpice.png Graphic file (type png)
 <use rtaEscalonSpice.png>
-Package pdftex.def Info: rtaEscalonSpice.png  used on input line 516.
+Package pdftex.def Info: rtaEscalonSpice.png  used on input line 517.
 (pdftex.def)             Requested size: 318.77214pt x 260.81357pt.
-<rtaEscalonSpiceComp.png, id=154, 351.33238pt x 290.5111pt>
+<rtaEscalonSpiceComp.png, id=157, 351.33238pt x 290.5111pt>
 File: rtaEscalonSpiceComp.png Graphic file (type png)
 <use rtaEscalonSpiceComp.png>
-Package pdftex.def Info: rtaEscalonSpiceComp.png  used on input line 519.
+Package pdftex.def Info: rtaEscalonSpiceComp.png  used on input line 520.
 (pdftex.def)             Requested size: 298.63393pt x 246.9356pt.
- [30 <./MagnitudBodeSpiceComp.png (PNG copy)> <./PhaseBodeSpiceComp.png (PNG co
-py)>] [31 <./rtaEscalonSpice.png (PNG copy)> <./rtaEscalonSpiceComp.png (PNG co
+ [31 <./MagnitudBodeSpiceComp.png (PNG copy)> <./PhaseBodeSpiceComp.png (PNG co
+py)>] [32 <./rtaEscalonSpice.png (PNG copy)> <./rtaEscalonSpiceComp.png (PNG co
 py)>]
-<rtaSenoidalBajoSpice.png, id=162, 366.35881pt x 287.64891pt>
+<rtaSenoidalBajoSpice.png, id=165, 366.35881pt x 287.64891pt>
 File: rtaSenoidalBajoSpice.png Graphic file (type png)
 <use rtaSenoidalBajoSpice.png>
-Package pdftex.def Info: rtaSenoidalBajoSpice.png  used on input line 529.
+Package pdftex.def Info: rtaSenoidalBajoSpice.png  used on input line 530.
 (pdftex.def)             Requested size: 293.08743pt x 230.11943pt.
-<rtaSenoidalBajoSpiceComp.png, id=163, 359.20337pt x 284.78673pt>
+<rtaSenoidalBajoSpiceComp.png, id=166, 359.20337pt x 284.78673pt>
 File: rtaSenoidalBajoSpiceComp.png Graphic file (type png)
 <use rtaSenoidalBajoSpiceComp.png>
-Package pdftex.def Info: rtaSenoidalBajoSpiceComp.png  used on input line 531.
+Package pdftex.def Info: rtaSenoidalBajoSpiceComp.png  used on input line 532.
 (pdftex.def)             Requested size: 287.36308pt x 227.82968pt.
- [32 <./rtaSenoidalBajoSpice.png (PNG copy)> <./rtaSenoidalBajoSpiceComp.png (P
+ [33 <./rtaSenoidalBajoSpice.png (PNG copy)> <./rtaSenoidalBajoSpiceComp.png (P
 NG copy)>]
-<rtaSenoidalMedioSpice.png, id=167, 352.76346pt x 289.79555pt>
+<rtaSenoidalMedioSpice.png, id=170, 352.76346pt x 289.79555pt>
 File: rtaSenoidalMedioSpice.png Graphic file (type png)
 <use rtaSenoidalMedioSpice.png>
-Package pdftex.def Info: rtaSenoidalMedioSpice.png  used on input line 538.
+Package pdftex.def Info: rtaSenoidalMedioSpice.png  used on input line 539.
 (pdftex.def)             Requested size: 352.76259pt x 289.79483pt.
-<rtaSenoidalMedioSpiceComp.png, id=168, 352.04793pt x 289.08pt>
+<rtaSenoidalMedioSpiceComp.png, id=171, 352.04793pt x 289.08pt>
 File: rtaSenoidalMedioSpiceComp.png Graphic file (type png)
 <use rtaSenoidalMedioSpiceComp.png>
-Package pdftex.def Info: rtaSenoidalMedioSpiceComp.png  used on input line 540.
+Package pdftex.def Info: rtaSenoidalMedioSpiceComp.png  used on input line 541.
 
 (pdftex.def)             Requested size: 337.96753pt x 277.51805pt.
 
 
-LaTeX Warning: Float too large for page by 16.51262pt on input line 542.
+LaTeX Warning: Float too large for page by 16.51262pt on input line 543.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<rtaSenoidalAltoSpice.png, id=169, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpice.png, id=172, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpice.png Graphic file (type png)
 <use rtaSenoidalAltoSpice.png>
-Package pdftex.def Info: rtaSenoidalAltoSpice.png  used on input line 548.
+Package pdftex.def Info: rtaSenoidalAltoSpice.png  used on input line 549.
 (pdftex.def)             Requested size: 359.91801pt x 288.36374pt.
-<rtaSenoidalAltoSpiceComp.png, id=170, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpiceComp.png, id=173, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpiceComp.png Graphic file (type png)
 <use rtaSenoidalAltoSpiceComp.png>
-Package pdftex.def Info: rtaSenoidalAltoSpiceComp.png  used on input line 550.
+Package pdftex.def Info: rtaSenoidalAltoSpiceComp.png  used on input line 551.
 (pdftex.def)             Requested size: 345.5237pt x 276.83112pt.
 
-LaTeX Warning: Float too large for page by 14.39459pt on input line 552.
+LaTeX Warning: Float too large for page by 14.39459pt on input line 553.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33 <./rtaSenoidalMedioSpice.png (PNG copy)> <./rtaSenoidalMedioSpiceComp.png (
-PNG copy)>] [34 <./rtaSenoidalAltoSpice.png (PNG copy)> <./rtaSenoidalAltoSpice
+[34 <./rtaSenoidalMedioSpice.png (PNG copy)> <./rtaSenoidalMedioSpiceComp.png (
+PNG copy)>] [35 <./rtaSenoidalAltoSpice.png (PNG copy)> <./rtaSenoidalAltoSpice
 Comp.png (PNG copy)>]
-<rtaSenoidalAltoSpiceCloseComp.png, id=177, 359.91891pt x 288.36446pt>
+<rtaSenoidalAltoSpiceCloseComp.png, id=180, 359.91891pt x 288.36446pt>
 File: rtaSenoidalAltoSpiceCloseComp.png Graphic file (type png)
 <use rtaSenoidalAltoSpiceCloseComp.png>
 Package pdftex.def Info: rtaSenoidalAltoSpiceCloseComp.png  used on input line 
-559.
+560.
 (pdftex.def)             Requested size: 345.5237pt x 276.83112pt.
 
-Overfull \hbox (6.27782pt too wide) in paragraph at lines 563--564
+Overfull \hbox (6.27782pt too wide) in paragraph at lines 564--565
 \OT1/cmr/m/n/10.95 siderando la nor-mal-izaci^^Son de los com-po-nentes. Hay qu
 e con-sid-erar tambi^^Sen 
  []
 
-[35
+[36
 
  <./rtaSenoidalAltoSpiceCloseComp.png (PNG copy)>]
-<rtaCuadradaBaja1Spice.png, id=181, 360.63446pt x 287.64891pt>
+<rtaCuadradaBaja1Spice.png, id=184, 360.63446pt x 287.64891pt>
 File: rtaCuadradaBaja1Spice.png Graphic file (type png)
 <use rtaCuadradaBaja1Spice.png>
-Package pdftex.def Info: rtaCuadradaBaja1Spice.png  used on input line 573.
+Package pdftex.def Info: rtaCuadradaBaja1Spice.png  used on input line 574.
 (pdftex.def)             Requested size: 288.50795pt x 230.11943pt.
-<rtaCuadradaBaja1SpiceComp.png, id=182, 360.63446pt x 287.64891pt>
+<rtaCuadradaBaja1SpiceComp.png, id=185, 360.63446pt x 287.64891pt>
 File: rtaCuadradaBaja1SpiceComp.png Graphic file (type png)
 <use rtaCuadradaBaja1SpiceComp.png>
-Package pdftex.def Info: rtaCuadradaBaja1SpiceComp.png  used on input line 575.
+Package pdftex.def Info: rtaCuadradaBaja1SpiceComp.png  used on input line 576.
 
 (pdftex.def)             Requested size: 288.50795pt x 230.11943pt.
- [36 <./rtaCuadradaBaja1Spice.png (PNG copy)> <./rtaCuadradaBaja1SpiceComp.png 
+ [37 <./rtaCuadradaBaja1Spice.png (PNG copy)> <./rtaCuadradaBaja1SpiceComp.png 
 (PNG copy)>]
-<rtaCuadradaMedio1Spice.png, id=186, 353.479pt x 287.64891pt>
+<rtaCuadradaMedio1Spice.png, id=190, 353.479pt x 287.64891pt>
 File: rtaCuadradaMedio1Spice.png Graphic file (type png)
 <use rtaCuadradaMedio1Spice.png>
-Package pdftex.def Info: rtaCuadradaMedio1Spice.png  used on input line 582.
+Package pdftex.def Info: rtaCuadradaMedio1Spice.png  used on input line 583.
 (pdftex.def)             Requested size: 282.78358pt x 230.11943pt.
-<rtaCuadradaMedio1SpiceComp.png, id=187, 353.479pt x 287.64891pt>
+<rtaCuadradaMedio1SpiceComp.png, id=191, 353.479pt x 287.64891pt>
 File: rtaCuadradaMedio1SpiceComp.png Graphic file (type png)
 <use rtaCuadradaMedio1SpiceComp.png>
-Package pdftex.def Info: rtaCuadradaMedio1SpiceComp.png  used on input line 584
+Package pdftex.def Info: rtaCuadradaMedio1SpiceComp.png  used on input line 585
 .
 (pdftex.def)             Requested size: 282.78358pt x 230.11943pt.
- [37 <./rtaCuadradaMedio1Spice.png (PNG copy)> <./rtaCuadradaMedio1SpiceComp.pn
-g (PNG copy)>] [38] (./TrabajoPracticoADC.aux) )
+ [38 <./rtaCuadradaMedio1Spice.png (PNG copy)> <./rtaCuadradaMedio1SpiceComp.pn
+g (PNG copy)>] [39] (./TrabajoPracticoADC.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 16 (\begingroup)
@@ -602,10 +596,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TrabajoPracticoADC.pdf (38 pages, 1661707 bytes).
+Output written on TrabajoPracticoADC.pdf (39 pages, 1683598 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 263 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

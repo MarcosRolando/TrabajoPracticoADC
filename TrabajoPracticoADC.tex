@@ -255,12 +255,13 @@ respuesta, una vez estabilizada, es una senoidal de amplitud igual a la mitad de
 de la señal cuadrada ($0,5V$ en este caso). Esto es lógico si vemos que la señal 
 cuadrada generada se puede pensar como una continua de $0,5V$ más una cuadrada centrada en cero de $0,5V$ de amplitud. Dado que la frecuencia de la cuadrada esta en el rango de frecuencias entre los $W_{0_{i}}$ (más especificamente, coincide con el extremo $W_{0_{1}}$) entonces  la señal no se ve atenuada significativamente por el filtro. Por otro lado, el tiempo que tarda en estabilizarse la señal está relacionado con el tiempo que tarda el filtro en estabilizar la respuesta a la continua.
 
+\newpage
 \begin{figure}[h!]
 \includegraphics[scale=1]{RtaCuadradaWo13.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{1}} \cdot 10$}
 \end{figure}
 
-Para la señal cuadrada de frecuencia $10 \cdot f_{0_{1}} \approx 966,5Hz$ tenemos que la respuesta oscila alrededor de los $0V$ cercanamente, coincidiendo con el comportamiento esperado del pasabanda para frecuencias mayores a las de la banda que deja pasar el filtro (que recordemos que va de $f_{0_{1}}$ a $f_{0_{2}}$, y debido a que estas frecuencias son cercanas entre sí entonces diez veces la primera ya se aleja considerablemente de dicha banda).
+Para la señal cuadrada de frecuencia $10 \cdot f_{0_{1}} \approx 966,5Hz$ tenemos que una vez alcanzado el estado permanente la respuesta oscila alrededor de los $0V$ cercanamente, coincidiendo con el comportamiento esperado del pasabanda para frecuencias mayores a las de la banda que deja pasar el filtro (que recordemos que va de $f_{0_{1}}$ a $f_{0_{2}}$, y debido a que estas frecuencias son cercanas entre sí entonces diez veces la primera ya se aleja considerablemente de dicha banda). El estado transitorio presenta la forma de la respuesta al escalón debido a la tensión continua que tiene la señal cuadrada. Lo que aparenta ser un rectángulo rojo en realidad son varios pulsos de la cuadrada pero debido a su alta frecuencia estos pulsos son muy cercanos entre sí (nuevamente, la señal cuadrada tiene amplitud 1V).
 
 \subsubsection*{Frecuencia $f_{0_{2}}$}
 
