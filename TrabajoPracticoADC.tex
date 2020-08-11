@@ -562,5 +562,25 @@ Habiendo analizado esta anomalidad procederemos al siguiente respuesta a señal 
 \includegraphics[scale=0.96]{rtaSenoidalMedioSpiceComp.png}
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
 \end{figure}
+\newpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{rtaSenoidalAltoSpice.png}
+\caption{Respuesta a señal senoidal de $w = 5000 \frac{r}{s}$ de \textit{LTSpice}}
+\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+\clearpage
+
+El siguiente gráfico magnifica la respuesta a la señal senoidal de frecuencia $w = 5000 \frac{r}{s}$ en el estado permanente para poder apreciar mejor la diferencia entre la respuesta de $H(s)$ y la respuesta del circuito normalizado generada por \textit{LTSpice}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceCloseComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice} magnificada}
+\end{figure}
+
+Vemos que hay una diferencia de amplitud y un desfase, esperable considerando la normalización de los componentes. Hay que considerar también que a medida que vamos avanzando hacia frecuencias altas o bajas nuestra respuesta tiende más a cero y las simulaciones son más propensas a tener errores de aproximación (como vimos para el caso de frecuencias bajas en \textit{Octave}).
 
 \end{document}
