@@ -242,9 +242,8 @@ Para $W_{0_{1}}$ tenemos que $f_{0_{1}} = \frac{W_{0_{1}}}{2 \cdot \pi} \approx 
 
 Para una señal cuadrada de frecuencia $\frac{f_{0_{1}}}{10} \approx 9,665Hz$ vemos que 
 la respuesta oscila constantemente alrededor de cero, y dado que es un filtro pasabanda no reacciona a ninguno de los flancos (los flancos tendrían una frecuencia
-prácticamente infinita y el filtro pasabanda, como vimos antes, no reacciona a dicha frecuencia). Comparando gráficos vemos que la respuesta a esta señal cuadrada se asemeja a la respuesta al escalón con la diferencia de que, debido a que estamos excitandola constantemente y no dejamos que alcance frecuencia cero, la respuesta nunca se extingue sino que repite constantemente el final de la respuesta al escalón.
-Además, a partir de $t \approx 0,4s$ se hace evidente el efecto de batido del que hablamos en la respuesta al escalón con la diferencia de que acá se repite periódicamente dado que la respuesta no "muere" nunca porque la excitamos constantemente.
- 
+prácticamente infinita y el filtro pasabanda, como vimos antes, no reacciona a dicha frecuencia). Comparando gráficos vemos que la respuesta a esta señal cuadrada se asemeja a la respuesta al escalón con la diferencia de que, debido a que estamos excitandola constantemente y no dejamos que alcance frecuencia cero, la respuesta nunca se extingue.
+
 \bigskip
 \begin{figure}[h!]
 \includegraphics[scale=1]{RtaCuadradaWo12.png}
@@ -525,59 +524,23 @@ Antes de proceder a mostrar los gráficos obtenidos, se presenta un esquema del 
 
 Las frecuencias $W_{0}$ utilizadas para las señales senoidales serán las mismas que para el el inciso \textbf{Respuesta a senoidales} de la sección \textbf{Respuesta gráfica del sistema a distintas señales}.
 
-\vspace{20 mm}
-
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.96]{rtaSenoidalBajoSpice.png}
+\includegraphics[scale=0.8]{rtaSenoidalBajoSpice.png}
 \caption{Respuesta a señal senoidal de $w = 20 \frac{r}{s}$ de \textit{LTSpice}}
-\end{figure}
-\newpage 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=1]{rtaSenoidalBajoSpiceComp.png}
+\includegraphics[scale=0.8]{rtaSenoidalBajoSpiceComp.png}
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
 \end{figure}
-
-Vemos que la comparación es sorprendentemente distinta para la primer décima de segundo. La respuesta de \textit{LTSpice} es más redondeada (se asemeja mas a una senoidal) mientras que la que genera \textit{Octave} para $H(s)$ presenta una forma más triangular. Aparentemente esta diferencia se debe a aproximaciones de \textit{Octave}, ya que si comparamos las respuestas que genera el programa para $H(s)$ y $H_{n}(s)$ obtenemos lo siguiente
-\newpage
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.96]{rtaSenoidalBajoComp.png}
-\caption{Comparación de la respuesta para H(s) vs $H_{n}(s)$ de \textit{Octave}}
-\end{figure}
-
-Podemos observar que estos gráficos comparten la misma forma difiriendo, lógicamente, en un error de amplitud. Debido a que las anteriores comparaciones entre \textit{LTSpice} y \textit{Octave} daban similares y que \textit{Octave} gráfica la misma forma tanto para $H_{n}(s)$ como para $H(s)$ es probable que esta diferencia entre lo mostrado por ambos programas se deba a una pobre aproximación de \textit{Octave} para este caso (ver además que la respuesta es demasiado triangular, mientras que para \textit{LTSpice} la respuesta presenta una forma mucho mas semejante a una senoidal lo cual es lo que esperaríamos observar).
-
-\bigskip
-\textbf{Nota:} posteriormente se logró simular en \textit{MATLAB} la respuesta
-a la misma señal senoidal y los resultados que se obtuvieron coinciden con los
-del \textit{LTSpice}, confirmando la suposición de que el culpable era \textit{Octave}. El siguiente gráfico muestra el resultado obtenido en \textit{MATLAB} comparado con el de \textit{LTSpice}.
-\newpage
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{rtaSenoidalBajoSpiceMatlab.jpeg}
-\caption{Comparación de la respuesta para H(s) vs $H_{n}(s)$ de \textit{MATLAB}}
-\end{figure}
-\afterpage{\clearpage}
-
-\bigskip
-Vemos que la forma obtenida por \textit{MATLAB} es similar a la de \textit{LTSpice}. Podemos observar considerable error en el intervalo de tiempo entre $t \approx 0,1s$ y $t \approx 0,15s$ para la tensión, esto puede deberse simplemente a \\errores de aproximación de cuentas en el programa o al error que acarrea el circuito normalizado contra el ideal. Sin embargo, debido a que la forma es muy similar para el resto del tiempo y a que en la sección donde difiere considerablemente podemos ver que la respuesta generada por \textit{MATLAB} es notablemente triangular, es más probable que se deba a errores más gruesos de aproximación, aunque esto solo una suposición.
-
-\bigskip
-Habiendo analizado esta anomalidad procederemos a la siguiente respuesta a señal senoidal.
 \newpage 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{rtaSenoidalMedioSpice.png}
-\caption{Respuesta a señal senoidal de $w = 630 \frac{r}{s}$ de \textit{LTSpice}}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
 \includegraphics[scale=0.96]{rtaSenoidalMedioSpiceComp.png}
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
 \end{figure}
+
 \newpage
 
 \begin{figure}[h!]
@@ -593,7 +556,7 @@ El siguiente gráfico magnifica la respuesta a la señal senoidal de frecuencia 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceCloseComp.png}
+\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceCloseComp.png}<
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice} magnificada}
 \end{figure}
 
