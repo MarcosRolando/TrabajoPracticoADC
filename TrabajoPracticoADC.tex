@@ -676,7 +676,13 @@ lo cual si sabemos invertir, ya que cada término es un seno o coseno multiplica
 \bigskip
 Inviertiendo cada término obtenemos que
 
-\[e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
-\[+ e^{(-23,03 \cdot t)} \cdot [A \cdot \cos(649,80 \cdot t) + \frac{C}{649,80} \cdot \sin(649,80 \cdot t)]\]
+\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
+\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [B \cdot \cos(649,80 \cdot t) + \frac{D}{649,80} \cdot \sin(649,80 \cdot t)] \ V\]
+
+\bigskip
+Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al escalón tal que
+
+\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [-1,51 \cdot \cos(606,87 \cdot t) -44,53 \cdot \sin(606,87 \cdot t)]\] 
+\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47,67 \cdot \sin(649,80 \cdot t)]\]
 
 \end{document}
