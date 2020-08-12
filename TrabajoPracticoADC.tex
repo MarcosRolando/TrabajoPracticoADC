@@ -559,7 +559,7 @@ El siguiente gráfico magnifica la respuesta a la señal senoidal de frecuencia 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceCloseComp.png}<
+\includegraphics[scale=0.96]{rtaSenoidalAltoSpiceCloseComp.png}
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice} magnificada}
 \end{figure}
 
@@ -655,10 +655,10 @@ A+B=0 \\
 Resolviendo el sistema mediante \textit{Octave} obtenemos que los coeficientes son
 
 \begin{align*}
-A \approx -1,5138\\
-B \approx 1,5138\\
-C \approx -27024,49711\\
-D \approx 30977,40181\\
+A \approx 0.073274\\
+B \approx -0.073274\\
+C \approx 1.623070\\
+D \approx -1.860479\\
 \end{align*}
 
 Habiendo obtenido los coeficientes tan solo falta invertir la funci. Para esto separamos las fracciones de forma tal que nos queda
@@ -682,7 +682,30 @@ Inviertiendo cada término obtenemos que
 \bigskip
 Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al escalón tal que
 
+\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [73,27 \cdot 10^{-3} \cdot \cos(606,87 \cdot t) - 2,67 \cdot 10^{-3} \cdot \sin(606,87 \cdot t)]\] 
+\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [-73,27 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 2,86 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)]\]
+
+Comparando con la respuesta de \textit{Octave}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{rtaEscalonAnaliticaVSOctave.png}
+\caption{Comparación de la respuesta para H(s) analítica vs \textit{Octave}}
+\end{figure}
+
+\newpage
+\bigskip
+ESTO ES DEL IMPULSO
+Inviertiendo cada término obtenemos que
+
+\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
+\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [B \cdot \cos(649,80 \cdot t) + \frac{D}{649,80} \cdot \sin(649,80 \cdot t)] \ V\]
+
+\bigskip
+Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al escalón tal que
+
 \[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [-1,51 \cdot \cos(606,87 \cdot t) -44,53 \cdot \sin(606,87 \cdot t)]\] 
-\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47,67 \cdot \sin(649,80 \cdot t)]\]
+\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47.67 \cdot \sin(649,80 \cdot t)]\]
+
 
 \end{document}
