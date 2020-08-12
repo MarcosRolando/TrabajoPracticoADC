@@ -692,8 +692,16 @@ Comparando con la respuesta de \textit{Octave}
 \includegraphics[scale=1]{rtaEscalonAnaliticaVSOctave.png}
 \caption{Comparación de la respuesta para H(s) analítica vs \textit{Octave}}
 \end{figure}
+\clearpage
 
-\newpage
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=1]{rtaEscalonAnaliticaVSLTSpice.png}
+\caption{Comparación de la respuesta para H(s) analítica vs \textit{LTSpice}}
+\end{figure}
+
+Vemos que la expresión analítica obtenida, si bien tiene un poco de error por los redondeos de los coeficientes y frecuencias, da extremadamente similar a lo obtenido por \textit{LTSpice} y \textit{Octave} lo que nos confirma que el resultado obtenido es correcto. Lógicamente da más parecido a lo obtenido por \textit{Octave} ya que los resultados del \textit{LTSpice} se basan en la función de transferencia que se deriva del circuito normalizado mientras que \textit{Octave} usa $H(s)$ ideal que fue el que utilizamos para la expresión analítica.
+
 \bigskip
 ESTO ES DEL IMPULSO
 Inviertiendo cada término obtenemos que
