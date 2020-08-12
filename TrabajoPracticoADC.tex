@@ -260,6 +260,7 @@ cuadrada generada se puede pensar como una continua de $0,5V$ más una cuadrada 
 \includegraphics[scale=1]{RtaCuadradaWo13.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{1}} \cdot 10$}
 \end{figure}
+\afterpage{\clearpage}
 
 Para la señal cuadrada de frecuencia $10 \cdot f_{0_{1}} \approx 966,5Hz$ tenemos que una vez alcanzado el estado permanente la respuesta oscila alrededor de los $0V$ cercanamente, coincidiendo con el comportamiento esperado del pasabanda para frecuencias mayores a las de la banda que deja pasar el filtro (que recordemos que va de $f_{0_{1}}$ a $f_{0_{2}}$, y debido a que estas frecuencias son cercanas entre sí entonces diez veces la primera ya se aleja considerablemente de dicha banda). El estado transitorio presenta la forma de la respuesta al escalón debido a la tensión continua que tiene la señal cuadrada. Lo que aparenta ser un rectángulo rojo en realidad son varios pulsos de la cuadrada pero debido a su alta frecuencia estos pulsos son muy cercanos entre sí (nuevamente, la señal cuadrada tiene amplitud 1V).
 
@@ -267,10 +268,11 @@ Para la señal cuadrada de frecuencia $10 \cdot f_{0_{1}} \approx 966,5Hz$ tenem
 
 Dado que $W_{0_{2}} \approx 650,2\frac{r}{s}$ para este caso tendremos que $f_{0_{2}} = \frac{W_{0_{2}}}{2 \cdot \pi} \approx 103,5Hz$. Debido a que las frecuencias $f_{0_{i}}$ son tan cercanas entre sí tendremos que los siguientes gráficos serán extremadamente parecidos a los anteriores, por lo que todo lo explicado previamente aplica de igual manera a lo siguiente y no será repetido.
 
-\begin{figure}[t!]
-\includegraphics[scale=0.95]{RtaCuadradaWo21.png}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.85]{RtaCuadradaWo21.png}
 \caption{Respuesta a la cuadrada de frecuencia $\frac{f_{0_{2}}}{10}$}
-\includegraphics[scale=0.95]{RtaCuadradaWo22.png}
+\includegraphics[scale=0.85]{RtaCuadradaWo22.png}
 \caption{Respuesta a la cuadrada de frecuencia $f_{0_{2}}$}
 \end{figure}
 \clearpage
@@ -593,6 +595,35 @@ Para la respuesta a la cuadrada de frecuencia $f_{0} = f_{0_{1}}$ tenemos un err
 \includegraphics[scale=0.85]{rtaCuadradaAlto1Spice.png}
 \caption{Respuesta a la cuadrada de frecuencia $10 \cdot f_{0_{1}}$ de \textit{LTSpice}}
 \includegraphics[scale=0.8]{rtaCuadradaAlto1SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+\newpage
+
+\subsubsection*{Frecuencia $f_{0_{2}}$}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{rtaCuadradaBaja2Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $\frac{f_{0_{2}}}{10}$ de \textit{LTSpice}}
+\includegraphics[scale=0.85]{rtaCuadradaBaja2SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+\newpage 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{rtaCuadradaMedio2Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $f_{0_{2}}$ de \textit{LTSpice}}
+\includegraphics[scale=0.95]{rtaCuadradaMedio2SpiceComp.png}
+\caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
+\end{figure}
+\newpage
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{rtaCuadradaAlto2Spice.png}
+\caption{Respuesta a la cuadrada de frecuencia $10 \cdot f_{0_{2}}$ de \textit{LTSpice}}
+\includegraphics[scale=0.95]{rtaCuadradaAlto2SpiceComp.png}
 \caption{Comparación de la respuesta para H(s) vs \textit{LTSpice}}
 \end{figure}
 
