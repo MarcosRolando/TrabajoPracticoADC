@@ -630,4 +630,53 @@ Para la respuesta a la cuadrada de frecuencia $f_{0} = f_{0_{1}}$ tenemos un err
 
 Los gráficos obtenidos para esta frecuencia son, como era esperable, iguales a los obtenidos para la frecuencia $f_{0_{1}}$ ya que ambas frecuencias son muy cercanas entre sí (esto lo habíamos aclarado ya en secciones previas) por lo tanto no hay nada remarcable para destacar.
 
+\section*{Cálculo analítico de las respuestas de H(s)}
+
+Esta sección se dividirá en tres subítems donde cada ítem corresponderá a una de las respuestas. Para las respuestas al impulso y al escalón se resolverá mediante propiedades de Laplace haciendo uso de la separación en fracciones cuadráticas (se evitan las fracciones simples para no trabajar con coeficientes complejos). Por otro lado, para el cálculo de la respuesta a la señal senoidal se utilizará la integral de Bromwich dado que esta coincide con la inversa de Laplace.
+
+\subsection*{Respuesta al escalón}
+    
+La respuesta al escalón viene dada por $\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t)$, donde $\frac{1}{s}$ es la transformada de Laplace de la función escalón (también conocida como función de Heaviside). Obtenemos entonces que
+\[H(s) \cdot \frac{1}{s} \approx \frac{3948 \cdot s}{(s^2+42,81 \cdot s + 607,3^2)
+\cdot (s^2+46,05 \cdot s + 650,2^2)}\]
+Esta expresión no es útil para poder encontrar la inversa, por lo tanto lo reescribiremos de una forma que sepamos como invertir; para eso podemos plantear descomposición en fracciones cuadráticas, expresandolo cómo
+\[\frac{A \cdot s + C}{(s^2+42,81 \cdot s + 607,3^2)} + \frac{B \cdot s + D}{(s^2+46,05 \cdot s + 650,2^2)}\]
+Igualando esta expresión con la anterior, buscaremos que los coeficientes de los distintos grados de \textit{s} sean iguales. Dado que sólo tenemos un término de \textit{s} (de primer grado) tan solo tendremos una ecuación no homogénea.
+
+\bigskip
+Desarrollando la igualdad obtendremos entonces las siguientes ecuaciones
+\begin{align*}
+A+B=0 \\
+46,05 \cdot A +42,81 \cdot B + C + D = 0 \\
+650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D = 3948 \\
+650,2^2 \cdot C + 607,3^2 \cdot D = 0
+\end{align*}
+
+Resolviendo el sistema mediante \textit{Octave} obtenemos que los coeficientes son
+
+\begin{align*}
+A \approx -1,5138\\
+B \approx 1,5138\\
+C \approx -27024,49711\\
+D \approx 30977,40181\\
+\end{align*}
+
+Habiendo obtenido los coeficientes tan solo falta invertir la funci. Para esto separamos las fracciones de forma tal que nos queda
+
+\[A \cdot \frac{s}{(s^2+42,81 \cdot s + 607,3^2)} + \frac{C}{(s^2+42,81 \cdot s + 607,3^2)}\] 
+\[+ B \cdot \frac{s}{(s^2+46,05 \cdot s + 650,2^2)} + \frac{D}{(s^2+46,05 \cdot s + 650,2^2)}\]
+
+Todavía no tenemos una expresión del todo familiar, pero esto es sencillamente corregible sabiendo que los denominadores, al tener raíces complejas, pueden ser escritos como $(s+a)^2+b^2$ donde $a = -\Re(p)$ y $b = \Im(p)$, donde $p$ es cualquiera de las dos raíces conjugadas de la cuadrática. Podemos expresar los términos entonces como
+
+\[A \cdot \frac{s}{(s+21,40)^2 + 606,87^2} + \frac{C}{(s+21,40)^2 + 606,87^2}\] 
+\[+ B \cdot \frac{s}{(s+23,03)^2 + 649,80^2} + \frac{D}{(s+23,03)^2 + 649,80^2}\]
+
+lo cual si sabemos invertir, ya que cada término es un seno o coseno multiplicado por una exponencial negativa.
+
+\bigskip
+Inviertiendo cada término obtenemos que
+
+\[e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
+\[+ e^{(-23,03 \cdot t)} \cdot [A \cdot \cos(649,80 \cdot t) + \frac{C}{649,80} \cdot \sin(649,80 \cdot t)]\]
+
 \end{document}

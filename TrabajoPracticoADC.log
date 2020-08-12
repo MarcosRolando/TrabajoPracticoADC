@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  11 AUG 2020 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  12 AUG 2020 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,10 +639,16 @@ Overfull \hbox (0.86366pt too wide) in paragraph at lines 631--632
  era es-per-a-ble, iguales 
  []
 
+
+Overfull \hbox (5.29681pt too wide) in paragraph at lines 643--645
+\OT1/cmr/m/n/10.95 de los dis-tin-tos gra-dos de \OT1/cmr/m/it/10.95 s \OT1/cmr
+/m/n/10.95 sean iguales. Dado que s^^Solo ten-emos un t^^Sermino 
+ []
+
 [42
 
 
-] (./TrabajoPracticoADC.aux) )
+] [43] [44] (./TrabajoPracticoADC.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 16 (\begingroup)
@@ -650,7 +656,7 @@ Overfull \hbox (0.86366pt too wide) in paragraph at lines 631--632
 Here is how much of TeX's memory you used:
  4089 strings out of 483140
  63618 string characters out of 5965151
- 277831 words of memory out of 5000000
+ 278831 words of memory out of 5000000
  19011 multiletter control sequences out of 15000+600000
  548647 words of font info for 84 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -673,10 +679,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TrabajoPracticoADC.pdf (42 pages, 2093755 bytes).
+Output written on TrabajoPracticoADC.pdf (44 pages, 2100883 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
