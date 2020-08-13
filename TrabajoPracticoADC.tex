@@ -829,24 +829,35 @@ El residuo de los polos simples puede calcularse para nuestra función mediante 
 donde $s_{0}$ se reemplaza por cada uno de los polos previos.
 
 \bigskip
-Calculando para cada polo y reescribiendo las exponenciales complejas como combinación de senos y cosenos obtenemos que la respuesta a la senoidal es
+Calculando para cada polo se obtiene
 
+\begin{align*}
+Res(F(s) \cdot e^{s \cdot t}, \ s_{1}) &\approx (-248,3 + 259,4j) \cdot 10^{-3} \cdot e^{(-21,4 + 606,9j) \cdot t}\\
+Res(F(s) \cdot e^{s \cdot t}, \ s_{2}) &\approx (-248,3 - 259,4j) \cdot 10^{-3} \cdot e^{(-21,4 - 606,9j) \cdot t}\\
+Res(F(s) \cdot e^{s \cdot t}, \ s_{3}) &\approx (288,7 + 255,2j) \cdot 10^{-3} \cdot e^{(-23,0 + 649,8j) \cdot t}\\
+Res(F(s) \cdot e^{s \cdot t}, \ s_{4}) &\approx (288,7 - 255,2j) \cdot 10^{-3} \cdot e^{(-23,0 - 649,8j) \cdot t}\\
+Res(F(s) \cdot e^{s \cdot t}, \ s_{5}) &= (-40,5 - 514,6j) \cdot 10^{-3} \cdot e^{630j \cdot t}\\
+Res(F(s) \cdot e^{s \cdot t}, \ s_{6}) &= (-40,5 + 514,6j) \cdot 10^{-3} \cdot e^{-630j \cdot t}\\
+\end{align*}
+
+Sumando todos los residuos obtenidos y reescribiendo las exponenciales complejas como combinación de senos y cosenos obtenemos que la respuesta a la senoidal es
 \[\mathcal{L}^{-1}\{F(s)\}(t) \approx -80,14 \cdot 10^{-3} \cdot \cos(630 \cdot t) + 1,0304 \cdot \sin(630 \cdot t)\phantom{asdasda}\] 
 \[+ e^{-21,40 \cdot t} \cdot [- 496,6 \cdot 10^{-3} \cdot \cos(606,87 \cdot t) - 518,8 \cdot 10^{-3} \cdot \sin(606,87 \cdot t)]\]
 \[+ e^{-23,03 \cdot t} \cdot [577,2 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 510,4 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)] \ V\]
 
 \bigskip
 Comparando con la respuesta de \textit{Octave} y \textit{LTSpice}
+\newpage
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.95]{rtaSenoidalAnaliticavsOctave.png}
+\includegraphics[scale=1]{rtaSenoidalAnaliticavsOctave.png}
 \caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{Octave}}
 \end{figure}
+
+El siguiente gráfico magnifica una zona para poder observar detalladamente la diferencia en la tensión ya que nuevamente ambos gráficos son extremadamente similares (como es esperable).
+
 \clearpage
-
-El siguiente gráfico magnifica una zona para poder observar detalladamente la diferencia en la tensión ya que nuevamente ambos gráficos son extremadamente similares (como se espera).
-
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=1]{rtaSenoidalAnaliticavsOctaveMagnificada.png}
