@@ -768,8 +768,18 @@ Para este ítem se buscará la respuesta a una señal senoidal de frecuencia $w 
 Como se habrá imaginado, aplicar el algoritmo de fracciones cuadráticas anterior no es muy amigable para este caso ya que encontrar los coeficientes de las ecuaciones resultaría mucho mas engorroso y propenso a errores. Es por este motivo que haremos usó de la integral de Bromwich para poder invertir la transformada en cuestión.
 
 \bigskip
-Utilizando la integral de Bromwich, la inversa de Laplace viene dada por
+Utilizando la integral de Bromwich, sea $F(s)$ una función analítica salvo en una cantidad finita de singularidades, la inversa de Laplace viene dada por
 
 \[\mathcal{L}^{-1}\{F(s)\}(t) = \frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds\]
+
+donde $\gamma$ es una constante real tal que sea mayor a la parte real de todas las singularidades de $F(s)$, de forma tal que las singularidades queden a la izquierda de la recta vertical sobre la que se está integrando en el plano complejo. El siguiente diagrama ayuda a conceptualizar lo dicho.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{diagramaBromwich1.png}
+\caption{Las \textit{S} son las singularidades vistas en el plano complejo}
+\end{figure}
+
+
 
 \end{document}
