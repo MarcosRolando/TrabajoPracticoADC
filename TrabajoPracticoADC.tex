@@ -8,18 +8,22 @@
 \usepackage{amssymb}
 \usepackage{textcomp}
 \usepackage{gensymb}
+\usepackage{makeidx}
 \usepackage{afterpage}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{graphicx}
 \graphicspath{ {~/LatexFiles/TrabajoPracticoADC} }
 \author{Marcos Rolando}
+\makeindex
 \begin{document}
 \spacing{1.25}
 
+\printindex
 
 \section*{Análisis general de la función de transferencia}
-
+\index{Análisis general de la función de transferencia}
 \subsection*{Tipo de filtro}
+\index{Análisis general de la función de transferencia!Tipo de filtro}
 
 Dada la función de transferencia asignada
 \[H(s)=\frac{3948 \cdot s^2}{s^4+88,86 \cdot s^3+7,935 \cdot 10^5 \cdot s^2+3,508 \cdot 10^7 \cdot s+1,559 \cdot 10^{11}}\]
@@ -41,7 +45,7 @@ En base a los valores obtenidos podemos entonces afirmar que se trata de un
 filtro pasabanda dado que la transferencia es nula para frecuencias bajas y altas.
 
 \subsection*{Ceros y polos}
-
+\index{Análisis general de la función de transferencia!Ceros y polos}
 En principio, es trivial ver que el único cero de la función $H(s)$ es
 $s = 0$ y dado que está elevado al cuadrado se deduce que el cero es doble.
 
@@ -58,7 +62,7 @@ donde $p_{1,2}$ y $p_{3,4}$ son los pares conjuados que componen los cuatros
 polos de $H(s)$, y donde el primer subíndice corresponde al conjugado cuya parte imaginaria es positiva mientras que el segundo subíndice corresponde al de parte imaginaria negativa.
 
 \subsection*{Cálculo de $W_{0}$ y Q}
-
+\index{Análisis general de la función de transferencia!Cálculo de $W_{0}$ y Q}
 Dado que el denominador se compone de dos pares de raíces complejas conjugadas tendrá entonces un $W_{0}$ y Q para cada par. Para obtenerlos debemos primero reescribir la función $H(s)$ a la forma
 \[H(s)=\frac{3948 \cdot s^2}{(a \cdot s^2+b \cdot s+c) \cdot (d \cdot s^2+e \cdot s+f)}\]
 donde las letras corresponden a valores que debemos calcular de forma tal que dicha
@@ -105,7 +109,7 @@ Finalmente, reemplazando con los valores de W y Q obtenidos podemos expresar la 
 \cdot (s^2+46,05 \cdot s + 650,2^2)}\]
 
 \subsection*{Diagramas de Bode}
-
+\index{Análisis general de la función de transferencia!Diagramas de Bode}
 A continuación se presentan los diagramas de Bode tanto de módulo como de fase (en grados sexagesimales) de la función $H(s)$ junto con una breve descripción explicando
 lo obtenido. Para los diagramas de Bode se analiza el caso $s=jw$ donde $w$ se mide
 en $\frac{r}{s}$ (radianes por segundo).
@@ -147,7 +151,7 @@ en $-180\degree$ aproximadamente.
 A continuación se presentan gráficos de respuestas del sistema a distintos tipos
 de señales y frecuencias.
 
-\subsubsection*{Respuesta al escalón}
+\subsection*{Respuesta al escalón}
 
 \begin{figure}[h!]
 \includegraphics[scale=0.7]{RtaEscalon.png}
@@ -181,7 +185,7 @@ Si no tuvieramos las exponenciales negativas que nos "matan" la señal observar�
 \end{figure}
 
 \newpage
-\subsubsection*{Respuesta al impulso}
+\subsection*{Respuesta al impulso}
 
 \begin{figure}[h!]
 \includegraphics[scale=0.7]{RtaImpulso.png}
@@ -198,7 +202,7 @@ tenemos el efecto de batido para $t = 0,15s$ lo cual es esperable dado que la de
 
 
 \newpage
-\subsubsection*{Respuesta a senoidales}
+\subsection*{Respuesta a senoidales}
 
 \begin{figure}[h!]
 \includegraphics[scale=0.96]{RtaSenoidalBajo.png}
@@ -228,7 +232,7 @@ Por último tenemos que para una señal senoidal de frecuencia $w = 5000\frac{r}
 estacionario la respuesta es de forma senoidal con amplitud tendiendo a cero (como es esperable, mientras más aumentemos la frecuencia dicha amplitud tenderá más aún a cero). La atenuación de la señal senoidal coindice con el hecho de que nuestro filtro es un pasabanda y por lo tanto anulará las señales de altas frecuencias.
 
 \newpage
-\subsubsection*{Respuesta a la cuadrada}
+\subsection*{Respuesta a la cuadrada}
 
 Esta sección se dividirá en dos subsecciones, en la primera analizaremos las cuadradas de frecuencias relacionadas con la de $W_{0_{1}} \approx 607,3 \frac{r}{s}$ y en la siguiente para las cuadradas de frecuencias relacionadas a $W_{0_{2}} \approx 607,3 \frac{r}{s}$. Recordemos que $f = \frac{W}{2 \cdot \pi}$.
 
@@ -290,7 +294,7 @@ Se propone un circuito compuesto por dos Multiple Feedback Band-pass Filter (MFB
 facilidad que aporta diseñar el circuito con este tipo de filtro. La principal
 desventaja de este filtro es que es complicado conseguir secciones de frecuencias y Q altos ($Q > 20$) debido a las limitaciones de la ganancia de lazo abierto del amplificador operacional integrado.\footnote{https://www.analog.com/media/en/training-seminars/design-handbooks/Op-Amp-Applications/Sections5-5-to-5-8.pdf, página 5.70} Dado que nuestra transferencia se compone por valores de $Q$ bajos ($Q < 20$) no habrá problemas en utilizar este tipo de filtro.
 
-\subsection*{Transferencia del MFPB}
+\subsection*{Transferencia del MFBP}
 
 A continuación se presenta un diagrama de un filtro Multiple Feedback Band-pass (MFBP).
 
@@ -883,7 +887,7 @@ Si comparamos con la respuesta generada por \textit{LTSpice} para el circuito no
 En base a lo expuesto considero que el filtro conseguido se ajusta considerablemente bien a la función de transferencia asignada. Se logró diseñar un circuito bastante exacto utilizando únicamente una resistencia de tolerancia $5\%$ gracias al algoritmo elaborado, si bien fue necesario lamentablemente utilizar resistencias menores al valor recomendado de $1K\Omega$. Como idea a futuro, sería ideal probar más combinaciones de resistencias en el algoritmo para analizar combinaciones de componentes que disminuyan aún más el error utilizando resistencias de menor tolerancia, ya que debido al tiempo del trabajo práctico y la consigna de intentar utilizar componentes fácilmente conseguibles no se probaron muchas combinaciones que hicieran uso de más de una resistencia de tolerancia menor al $10\%$.
 
 \bigskip
-Para redondear, el circuito que se propuso para la transferencia asignada fue
+Para redondear, el circuito que se diseñó para la transferencia asignada fue
 
 \vspace{5 mm}
 
@@ -892,7 +896,5 @@ Para redondear, el circuito que se propuso para la transferencia asignada fue
 \includegraphics[scale=1]{Circuito.png}
 \caption{Circuito propuesto para la transferencia asignada}
 \end{figure}
-
-
 
 \end{document}
