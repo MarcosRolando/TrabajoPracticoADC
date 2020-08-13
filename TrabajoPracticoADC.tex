@@ -647,19 +647,19 @@ Igualando esta expresión con la anterior, buscaremos que los coeficientes de lo
 \bigskip
 Desarrollando la igualdad obtendremos entonces las siguientes ecuaciones
 \begin{align*}
-A+B=0 \\
-46,05 \cdot A +42,81 \cdot B + C + D = 0 \\
-650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D = 3948 \\
-650,2^2 \cdot C + 607,3^2 \cdot D = 0
+A+B&=0 \\
+46,05 \cdot A +42,81 \cdot B + C + D &= 0 \\
+650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D &= 3948 \\
+650,2^2 \cdot C + 607,3^2 \cdot D &= 0
 \end{align*}
 
 Resolviendo el sistema mediante \textit{Octave} obtenemos que los coeficientes son
 
 \begin{align*}
-A \approx 0,073274 \\
-B \approx -0,073274 \\
-C \approx 1,623070 \\
-D \approx -1,860479 \\
+A &\approx 0,073274 \\
+B &\approx -0,073274 \\
+C &\approx 1,623070 \\
+D &\approx -1,860479 \\
 \end{align*}
 
 Habiendo obtenido los coeficientes tan solo falta invertir la funci. Para esto separamos las fracciones de forma tal que nos queda
@@ -721,17 +721,17 @@ Recordemos que queremos expresar $H(s)$ como
 \bigskip
 donde para este caso tendríamos las ecuaciones
 \begin{align*}
-A+B=0 \\
-46,05 \cdot A +42,81 \cdot B + C + D = 3948 \\
-650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D = 0 \\
-650,2^2 \cdot C + 607,3^2 \cdot D = 0
+A+B&=0 \\
+46,05 \cdot A +42,81 \cdot B + C + D &= 3948 \\
+650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D &= 0 \\
+650,2^2 \cdot C + 607,3^2 \cdot D &= 0
 \end{align*}
 y resolviendo dicho sistema con \textit{Octave} obtenemos que
 \begin{align*}
-A \approx -1,51380 \\
-B \approx 1,51380 \\
-C \approx -27024,49711 \\
-D \approx 30977,40181 \\
+A &\approx -1,51380 \\
+B &\approx 1,51380 \\
+C &\approx -27024,49711 \\
+D &\approx 30977,40181 \\
 \end{align*}
 Como lo único que cambia en esta respuesta comparando con la del escalón son estos coeficientes ya tenemos entonces la expresión de la inversa, donde
 \[\mathcal{L}^{-1}\{H(s)\}(t) \approx e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
@@ -807,7 +807,12 @@ Llamaremos a esta nueva curva de integración la curva $C$. Vemos que si $R\long
 \bigskip
 Sea $F(s) = H(s) \cdot \frac{630}{s^2 + 630^2}$ la transformada de Laplace de la respuesta de $H(s)$ a la señal senoidal de frecuencia $w = 630\frac{r}{s}$, podemos plantear entonces que
 
-\[\mathcal{L}^{-1}\{F(s)\}(t) = \frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds=\frac{1}{2\pi j} \cdot \oint_C f(z) dz = \sum_{k=1}^{n} Res(f(z), z_{k})\]
+\begin{align*}
+\mathcal{L}^{-1}\{F(s)\}(t)&=\frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds \\
+&=\frac{1}{2\pi j} \cdot \oint_C  F(s) \cdot e^{s \cdot t} dz\\ &= \sum_{k=1}^{n} Res(F(s) \cdot e^{s \cdot t}, z_{k})
+\end{align*}
+
+
 
 
 
