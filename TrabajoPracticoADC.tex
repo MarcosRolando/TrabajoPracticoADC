@@ -655,10 +655,10 @@ A+B=0 \\
 Resolviendo el sistema mediante \textit{Octave} obtenemos que los coeficientes son
 
 \begin{align*}
-A \approx 0.073274\\
-B \approx -0.073274\\
-C \approx 1.623070\\
-D \approx -1.860479\\
+A \approx 0,073274 \\
+B \approx -0,073274 \\
+C \approx 1,623070 \\
+D \approx -1,860479 \\
 \end{align*}
 
 Habiendo obtenido los coeficientes tan solo falta invertir la funci. Para esto separamos las fracciones de forma tal que nos queda
@@ -683,7 +683,7 @@ Inviertiendo cada término obtenemos que
 Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al escalón tal que
 
 \[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [73,27 \cdot 10^{-3} \cdot \cos(606,87 \cdot t) - 2,67 \cdot 10^{-3} \cdot \sin(606,87 \cdot t)]\] 
-\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [-73,27 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 2,86 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)]\]
+\[\phantom{asadsdasdsdasda} + e^{(-23,03 \cdot t)} \cdot [-73,27 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 2,86 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)] \ V\]
 
 Comparando con la respuesta de \textit{Octave}
 
@@ -703,17 +703,44 @@ Comparando con la respuesta de \textit{Octave}
 Vemos que la expresión analítica obtenida, si bien tiene un poco de error por los redondeos de los coeficientes y frecuencias, da extremadamente similar a lo obtenido por \textit{LTSpice} y \textit{Octave} lo que nos confirma que el resultado obtenido es correcto. Lógicamente da más parecido a lo obtenido por \textit{Octave} ya que los resultados del \textit{LTSpice} se basan en la función de transferencia que se deriva del circuito normalizado mientras que \textit{Octave} usa $H(s)$ ideal que fue el que utilizamos para la expresión analítica.
 
 \bigskip
-ESTO ES DEL IMPULSO
-Inviertiendo cada término obtenemos que
+\subsection*{Respuesta al impulso}
+La respuesta al impulso viene dada por $\mathcal{L}^{-1}\{H(s)\}(t)$ ya que la transformada de la función impulso (también conocida como la función Delta de Dirac $\delta(t)$) es la unidad; es decir, $\mathcal{L}\{\delta(t)\}(s) = 1$. Debido a esto la función que tendremos que invertir será directamente $H(s)$ y recordemos que
 
-\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
+\[H(s) \approx \frac{3948 \cdot s^2}{(s^2+42,81 \cdot s + 607,3^2)
+\cdot (s^2+46,05 \cdot s + 650,2^2)}\]
+
+Afortunadamente podemos aplicar todo lo utilizado para la respuesta al escalón para este caso, cambiando únicamente las igualdades de las ecuaciones de los coeficientes de las fracciones cuadráticas. Otra alternativa posible sería derivar la respuesta al escalón que obtuvimos previamente y ya obtendríamos la respuesta al impulso, pero la función no es muy amigable para trabajar e implicaría más trabajo.
+
+\bigskip
+Recordemos que queremos expresar $H(s)$ como
+
+\[A \cdot \frac{s}{(s+21,40)^2 + 606,87^2} + \frac{C}{(s+21,40)^2 + 606,87^2}\] 
+\[+ B \cdot \frac{s}{(s+23,03)^2 + 649,80^2} + \frac{D}{(s+23,03)^2 + 649,80^2}\]
+
+\bigskip
+donde para este caso tendríamos las ecuaciones
+\begin{align*}
+A+B=0 \\
+46,05 \cdot A +42,81 \cdot B + C + D = 3948 \\
+650,2^2 \cdot A + 607,3^2 \cdot B + 46,05 \cdot C + 42,81 \cdot D = 0 \\
+650,2^2 \cdot C + 607,3^2 \cdot D = 0
+\end{align*}
+y resolviendo dicho sistema con \textit{Octave} obtenemos que
+\begin{align*}
+A \approx -1,51380 \\
+B \approx 1,51380 \\
+C \approx -27024,49711 \\
+D \approx 30977,40181 \\
+\end{align*}
+Como lo único que cambia en esta respuesta comparando con la del escalón son estos coeficientes ya tenemos entonces la expresión de la inversa, donde
+\[\mathcal{L}^{-1}\{H(s)\}(t) \approx e^{(-21,40 \cdot t)} \cdot [A \cdot \cos(606,87 \cdot t) + \frac{C}{606,87} \cdot \sin(606,87 \cdot t)]\] 
 \[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [B \cdot \cos(649,80 \cdot t) + \frac{D}{649,80} \cdot \sin(649,80 \cdot t)] \ V\]
 
 \bigskip
-Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al escalón tal que
+Reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta analítica al impulso tal que
 
-\[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [-1,51 \cdot \cos(606,87 \cdot t) -44,53 \cdot \sin(606,87 \cdot t)]\] 
-\[\phantom{asadsdasdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47.67 \cdot \sin(649,80 \cdot t)]\]
+\[\mathcal{L}^{-1}\{H(s)\}(t) \approx e^{(-21,40 \cdot t)} \cdot [-1,51 \cdot \cos(606,87 \cdot t) -44,53 \cdot \sin(606,87 \cdot t)]\] 
+\[\phantom{asadsdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47.67 \cdot \sin(649,80 \cdot t)] \ V\]
 
 
 \end{document}
