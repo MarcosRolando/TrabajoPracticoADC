@@ -853,4 +853,20 @@ El siguiente gráfico magnifica una zona para poder observar detalladamente la d
 \caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{Octave} magnificada}
 \end{figure}
 
+Vemos que el error es ínfimo, apenas en el orden de los micro tanto para el tiempo como para la tensión, lo cual confirma que la respuesta encontrada analíticamente es la correcta dado que el poco error que se tiene proviene de las aproximaciones en los coeficientes y frecuencias.
+\clearpage
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=1]{rtaSenoidalAnaliticavsSpice.png}
+\caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{LTSpice}}
+\includegraphics[scale=0.9]{rtaSenoidalAnaliticavsSpiceMagnificada.png}
+\caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{LTSpice} magnificada}
+\end{figure}
+\clearpage
+
+Si comparamos con la respuesta generada por \textit{LTSpice} para el circuito normalizado podemos apreciar, esperablemente, más error que la comparación contra el ideal de \textit{Octave}. Aún así el error es bastante chico, de aproximadamente unos $75mV$
+
+
+
 \end{document}
