@@ -835,4 +835,22 @@ Calculando para cada polo y reescribiendo las exponenciales complejas como combi
 \[+ e^{-21,40 \cdot t} \cdot [- 496,6 \cdot 10^{-3} \cdot \cos(606,87 \cdot t) - 518,8 \cdot 10^{-3} \cdot \sin(606,87 \cdot t)]\]
 \[+ e^{-23,03 \cdot t} \cdot [577,2 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 510,4 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)] \ V\]
 
+\bigskip
+Comparando con la respuesta de \textit{Octave} y \textit{LTSpice}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.95]{rtaSenoidalAnaliticavsOctave.png}
+\caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{Octave}}
+\end{figure}
+\clearpage
+
+El siguiente gráfico magnifica una zona para poder observar detalladamente la diferencia en la tensión ya que nuevamente ambos gráficos son extremadamente similares (como se espera).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=1]{rtaSenoidalAnaliticavsOctaveMagnificada.png}
+\caption{Comparación de la respuesta a la señal senoidal para H(s) analítica vs \textit{Octave} magnificada}
+\end{figure}
+
 \end{document}
