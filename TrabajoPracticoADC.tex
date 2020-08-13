@@ -809,8 +809,21 @@ Sea $F(s) = H(s) \cdot \frac{630}{s^2 + 630^2}$ la transformada de Laplace de la
 
 \begin{align*}
 \mathcal{L}^{-1}\{F(s)\}(t)&=\frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds \\
-&=\frac{1}{2\pi j} \cdot \oint_C  F(s) \cdot e^{s \cdot t} dz\\ &= \sum_{k=1}^{n} Res(F(s) \cdot e^{s \cdot t}, z_{k})
+&=\frac{1}{2\pi j} \cdot \oint_C  F(s) \cdot e^{s \cdot t} ds\\ &= \sum_{k=1}^{n} Res(F(s) \cdot e^{s \cdot t}, s_{k})
 \end{align*}
+
+donde $\gamma > 0$ y $s_{k}$ son las singularidades de $F(s) \cdot e^{s \cdot t}$.
+Dichas singularidades son los tres pares de polos conjugados (dos pares provenientes de las raíces del denominador de $H(s)$ y el otro par proviene de las raíces del denominador de la transformada del seno). Tenemos entonces los siguiente polos simples
+\begin{align*}
+s_{1} &\approx -21,40 + 606,88j\\
+s_{2} &\approx -21,40 - 606,88j\\
+s_{3} &\approx -23,03 + 649,80j\\
+s_{4} &\approx -23,03 - 649,80j\\
+s_{5} &= 630j\\
+s_{6} &= -630j\\
+\end{align*}
+
+\bigskip
 
 
 
