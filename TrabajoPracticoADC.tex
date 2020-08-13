@@ -685,19 +685,19 @@ Finalmente, reemplazando los coeficientes con los valores obtenidos obtenemos un
 \[\mathcal{L}^{-1}\{H(s) \cdot \frac{1}{s}\}(t) \approx e^{(-21,40 \cdot t)} \cdot [73,27 \cdot 10^{-3} \cdot \cos(606,87 \cdot t) - 2,67 \cdot 10^{-3} \cdot \sin(606,87 \cdot t)]\] 
 \[\phantom{asadsdasdsdasda} + e^{(-23,03 \cdot t)} \cdot [-73,27 \cdot 10^{-3} \cdot \cos(649,80 \cdot t) - 2,86 \cdot 10^{-3} \cdot \sin(649,80 \cdot t)] \ V\]
 
-Comparando con la respuesta de \textit{Octave}
+Comparando con las respuestas de \textit{Octave} y \textit{LTSpice}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{rtaEscalonAnaliticaVSOctave.png}
-\caption{Comparación de la respuesta para H(s) analítica vs \textit{Octave}}
+\caption{Comparación de la respuesta al escalón para H(s) analítica vs \textit{Octave}}
 \end{figure}
 \clearpage
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=1]{rtaEscalonAnaliticaVSLTSpice.png}
-\caption{Comparación de la respuesta para H(s) analítica vs \textit{LTSpice}}
+\caption{Comparación de la respuesta al escalón para H(s) analítica vs \textit{LTSpice}}
 \end{figure}
 
 Vemos que la expresión analítica obtenida, si bien tiene un poco de error por los redondeos de los coeficientes y frecuencias, da extremadamente similar a lo obtenido por \textit{LTSpice} y \textit{Octave} lo que nos confirma que el resultado obtenido es correcto. Lógicamente da más parecido a lo obtenido por \textit{Octave} ya que los resultados del \textit{LTSpice} se basan en la función de transferencia que se deriva del circuito normalizado mientras que \textit{Octave} usa $H(s)$ ideal que fue el que utilizamos para la expresión analítica.
@@ -741,6 +741,27 @@ Reemplazando los coeficientes con los valores obtenidos obtenemos una respuesta 
 
 \[\mathcal{L}^{-1}\{H(s)\}(t) \approx e^{(-21,40 \cdot t)} \cdot [-1,51 \cdot \cos(606,87 \cdot t) -44,53 \cdot \sin(606,87 \cdot t)]\] 
 \[\phantom{asadsdasdasda} + e^{(-23,03 \cdot t)} \cdot [1,51 \cdot \cos(649,80 \cdot t) + 47.67 \cdot \sin(649,80 \cdot t)] \ V\]
+
+Comparando con la respuesta de \textit{Octave}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{rtaImpulsoAnaliticavsOctave.png}
+\caption{Comparación de la respuesta al impulso para H(s) analítica vs \textit{Octave}}
+\end{figure}
+
+Vemos que los gráficos son tan próximos que no hay diferencia observable a esta escala. A continuación se presenta otro gráfico magnificado para poder apreciar la leve diferencia (proveniente de errores de aproximación en los coeficientes y frecuencias, lógicamente).
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=1]{rtaImpulsoAnaliticavsOctaveMagnificada.png}
+\caption{Comparación de la respuesta al impulso para H(s) analítica vs \textit{Octave}}
+\end{figure}
+
+Vemos que la diferencia es, efectivamente, despreciable. Con esto podemos confirmar nuevamente que la respuesta analítica al impulso que obtuvimos es la correcta.
+
+
+
 
 
 \end{document}
