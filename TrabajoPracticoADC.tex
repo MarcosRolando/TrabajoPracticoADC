@@ -3,6 +3,7 @@
 \usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
+\usepackage{esint}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{textcomp}
@@ -780,6 +781,13 @@ donde $\gamma$ es una constante real tal que sea mayor a la parte real de todas 
 \caption{Las \textit{S} son las singularidades vistas en el plano complejo}
 \end{figure}
 
+Dado que los polos de la función $H(s)$ tienen parte real aproximadamente $-20$ y que los polos conjugados de la transformada senoidal tienen parte real cero, $\gamma$ podría ser cualquier número real mayor a cero. 
 
+\bigskip
+Resolver la integral de Bromwich mediante el típico análisis de sustitución, por partes y primitivas es prácticamente inviable dada la complejidad de lo que estamos integrando, por lo tanto se hará uso de un recurso poderoso que nos permitirá simplificar mucho este cálculo: el teorema de los residuos. 
+
+\bigskip
+El teorema de los residuos establece que
+\[\frac{1}{2\pi j} \cdot \oint_C f(z) dz = \]
 
 \end{document}
