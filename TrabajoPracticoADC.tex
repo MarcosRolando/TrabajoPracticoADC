@@ -800,6 +800,15 @@ Para poder aplicar este teorema a nuestra integral debemos modificar la curva so
 \includegraphics[scale=0.9]{diagramaBromwich2.png}
 \caption{Las \textit{S} son las singularidades vistas en el plano complejo}
 \end{figure}
+\clearpage
+
+Llamaremos a esta nueva curva de integración la curva $C$. Vemos que si $R\longrightarrow \infty$ encerraremos todas las singularidades de nuestra función $f(z)$, donde $f(z)$ será la función $H(s)$ multiplicada por la transformada del seno. Lo útil de este método es que podemos aprovechar además que la integral a través de la semicircunferencia da cero cuando R tienede a infinito. Esto puede demostrarse mediante el Lema de Jordan \footnote{https://mathworld.wolfram.com/JordansLemma.html} si bien no se demostrará aquí para no extender demasiado este trabajo. 
+
+\bigskip
+Sea $F(s) = H(s) \cdot \frac{630}{s^2 + 630^2}$ la transformada de Laplace de la respuesta de $H(s)$ a la señal senoidal de frecuencia $w = 630\frac{r}{s}$, podemos plantear entonces que
+
+\[\mathcal{L}^{-1}\{F(s)\}(t) = \frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds=\frac{1}{2\pi j} \cdot \oint_C f(z) dz = \sum_{k=1}^{n} Res(f(z), z_{k})\]
+
 
 
 \end{document}
