@@ -752,6 +752,8 @@ Comparando con la respuesta de \textit{Octave}
 
 Vemos que los gráficos son tan próximos que no hay diferencia observable a esta escala. A continuación se presenta otro gráfico magnificado para poder apreciar la leve diferencia (proveniente de errores de aproximación en los coeficientes y frecuencias, lógicamente).
 
+
+
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=1]{rtaImpulsoAnaliticavsOctaveMagnificada.png}
@@ -760,8 +762,14 @@ Vemos que los gráficos son tan próximos que no hay diferencia observable a est
 
 Vemos que la diferencia es, efectivamente, despreciable. Con esto podemos confirmar nuevamente que la respuesta analítica al impulso que obtuvimos es la correcta.
 
+\subsection*{Respuesta a la senoidal}
 
+Para este ítem se buscará la respuesta a una señal senoidal de frecuencia $w = 630 \frac{r}{s}$, de forma tal que se pueda comparar con resultados previos fácilmente.
+Como se habrá imaginado, aplicar el algoritmo de fracciones cuadráticas anterior no es muy amigable para este caso ya que encontrar los coeficientes de las ecuaciones resultaría mucho mas engorroso y propenso a errores. Es por este motivo que haremos usó de la integral de Bromwich para poder invertir la transformada en cuestión.
 
+\bigskip
+Utilizando la integral de Bromwich, la inversa de Laplace viene dada por
 
+\[\mathcal{L}^{-1}\{F(s)\}(t) = \frac{1}{2\pi j} \cdot \int_{\gamma-j\infty}^{\gamma+j\infty} F(s) \cdot e^{s \cdot t}\, ds\]
 
 \end{document}
